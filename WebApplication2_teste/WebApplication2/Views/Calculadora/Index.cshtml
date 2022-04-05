@@ -1,0 +1,84 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    
+}
+<div class="container">
+    <a class="btn btn-danger" href="/">Home</a>
+
+    <div class="col-md-12 p-3">
+
+        <div class="row">
+
+            <div class="col-md-3 p-2">
+                <form action="/Calculadora/CalculaSoma" method="post">
+                    <h5>Adição</h5>
+                    <div class="mb-3"><label class="col-form-label">N1</label><input type="text" name="a" class="form-control" /></div>
+                    <div class="mb-3"><label class="col-form-label">N2</label><input type="text" name="b" class="form-control" /></div>
+                    <button class="btn btn-dark">Calcular Soma</button>
+                    <hr />
+                    <div class="btn-outline">
+                        Resposta <br /> @ViewBag.CalculaSoma
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-3 p-2">
+                <form action="/Calculadora/CalculaDiferenca" method="post">
+                    <h5>Subtração</h5>
+                    <div class="mb-3"><label class="col-form-label">N1</label><input type="text" name="a" class="form-control" /></div>
+                    <div class="mb-3"><label class="col-form-label">N2</label><input type="text" name="b" class="form-control" /></div>
+                    <button class="btn btn-warning">Calcular Diferença</button>
+                    <hr />
+                    <div class="btn-outline">
+                        Resposta <br /> @ViewBag.CalculaDiferenca
+                    </div>
+                </form>
+            </div>
+
+
+            <div class="col-md-3 p-2">
+                <form action="/Calculadora/CalculaProduto" method="post">
+                    <h5>Multiplicação</h5>
+                    <div class="mb-3"><label class="col-form-label">N1</label><input type="text" name="a" class="form-control"  /></div>
+                    <div class="mb-3"><label class="col-form-label">N2</label><input type="text" name="b" class="form-control"  /></div>
+                    <button class="btn btn-primary">Calcular Produto</button>
+                    <hr/>
+                    <div class="btn-outline">
+                        Resposta <br /> @ViewBag.CalculaProduto
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-md-3 p-2">
+                <form action="/Calculadora/CalculaDivisao" method="post">
+                    <h5>Divisão</h5>
+                    <div class="mb-3"><label class="col-form-label">N1</label><input type="text" name="a" class="form-control" /></div>
+                    <div class="mb-3"><label class="col-form-label">N2</label><input type="text" name="b" class="form-control" /></div>
+                    <button class="btn btn-danger">Calcular Divisão</button>
+                    <hr />
+                    <div class="btn-outline">
+                        Resposta <br/> @ViewBag.CalculaDivisao
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+        
+
+       
+
+      
+
+    </div>
+  
+
+
+
+
+
+
+
+</div>
