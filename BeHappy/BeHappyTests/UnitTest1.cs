@@ -20,7 +20,7 @@ namespace BeHappyTests
                 fator2 = 1
             };
 
-            int num = duocalc.soma();
+            double num = duocalc.soma();
             Assert.Equal(8, num);
 
         }
@@ -31,7 +31,7 @@ namespace BeHappyTests
             Duocalc duocalc = new Duocalc();
             duocalc.fator1 = 5;
             duocalc.fator2 = 4;
-            int num = duocalc.soma();
+            double num = duocalc.soma();
             Assert.Equal(9, num);
             
         }

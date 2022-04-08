@@ -5234,11 +5234,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Izabel Santos\\source\\repos\\BeHappy\\BeHappy\\BeHappy.csproj",
+      "projectUniqueName": "D:\\vstudio\\BeHappy\\BeHappy\\BeHappy.csproj",
       "projectName": "BeHappy",
-      "projectPath": "C:\\Users\\Izabel Santos\\source\\repos\\BeHappy\\BeHappy\\BeHappy.csproj",
+      "projectPath": "D:\\vstudio\\BeHappy\\BeHappy\\BeHappy.csproj",
       "packagesPath": "C:\\Users\\Izabel Santos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Izabel Santos\\source\\repos\\BeHappy\\BeHappy\\obj\\",
+      "outputPath": "D:\\vstudio\\BeHappy\\BeHappy\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

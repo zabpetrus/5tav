@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q78dU16BppQGFCHXs8AV8cLN4O6Bykqx/CWRiTbyELtiDq4E9Uhuk38EbDt/z4xVdnOg6pSJG7/3bUEzZOr/9Q==",
+  "dgSpecHash": "bbAiK9uikfZ27i34+F39BCEuAWI/7LG2JK/lk6zAm147iAHUT1rXzQL1tDXYzrlyuPMIh4dolVgerDiPrqT4bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Izabel Santos\\source\\repos\\BeHappy\\BeHappyTests\\BeHappyTests.csproj",
+  "projectFilePath": "D:\\vstudio\\BeHappy\\BeHappyTests\\BeHappyTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Izabel Santos\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Izabel Santos\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

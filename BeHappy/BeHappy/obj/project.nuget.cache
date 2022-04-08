@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y24xhQkoqaQJRspCT7BiAaZBFJwuHFI8leRz4jOv9VU0iCahNG2dtbPodehOGrvwo2wBntlQdhWevtORepK68w==",
+  "dgSpecHash": "HKb/bgi0bfTsvKvBLITfBbTeafBrhmV3BBrobdr1HU/uMczZawmaLnPeGSwSbzW19gyvdg/StQpOQboAtRO0Kw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Izabel Santos\\source\\repos\\BeHappy\\BeHappy\\BeHappy.csproj",
+  "projectFilePath": "D:\\vstudio\\BeHappy\\BeHappy\\BeHappy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Izabel Santos\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\Izabel Santos\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

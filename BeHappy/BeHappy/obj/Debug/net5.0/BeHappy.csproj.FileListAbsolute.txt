@@ -29,3 +29,34 @@ C:\Users\Izabel Santos\source\repos\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.pdb
 C:\Users\Izabel Santos\source\repos\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.genruntimeconfig.cache
 C:\Users\Izabel Santos\source\repos\BeHappy\BeHappy\bin\Debug\net5.0\Castle.Core.dll
 C:\Users\Izabel Santos\source\repos\BeHappy\BeHappy\bin\Debug\net5.0\Moq.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\appsettings.Development.json
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\appsettings.json
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\BeHappy.exe
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\BeHappy.deps.json
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\BeHappy.runtimeconfig.json
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\BeHappy.runtimeconfig.dev.json
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\BeHappy.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\ref\BeHappy.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\BeHappy.pdb
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\Castle.Core.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\Moq.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\vstudio\BeHappy\BeHappy\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.AssemblyInfoInputs.cache
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.AssemblyInfo.cs
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.csproj.CoreCompileInputs.cache
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.MvcApplicationPartsAssemblyInfo.cs
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.MvcApplicationPartsAssemblyInfo.cache
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\staticwebassets\BeHappy.StaticWebAssets.Manifest.cache
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\staticwebassets\BeHappy.StaticWebAssets.xml
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\scopedcss\bundle\BeHappy.styles.css
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.RazorTargetAssemblyInfo.cache
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.csproj.CopyComplete
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.dll
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\ref\BeHappy.dll
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.pdb
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.genruntimeconfig.cache
+D:\vstudio\BeHappy\BeHappy\obj\Debug\net5.0\BeHappy.csproj.AssemblyReference.cache
