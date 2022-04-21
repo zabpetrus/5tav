@@ -1,0 +1,12 @@
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\bin\Debug\net6.0\AppCrud01.Application.deps.json
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\bin\Debug\net6.0\AppCrud01.Application.dll
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\bin\Debug\net6.0\AppCrud01.Application.pdb
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.csproj.AssemblyReference.cache
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.AssemblyInfoInputs.cache
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.AssemblyInfo.cs
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.csproj.CoreCompileInputs.cache
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.dll
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\refint\AppCrud01.Application.dll
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\AppCrud01.Application.pdb
+C:\Users\zsant\source\repos\Aula\AppCrud01.Application\obj\Debug\net6.0\ref\AppCrud01.Application.dll
