@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppCrud01.Application\AppCrud01.Application.csproj" />
+    <ProjectReference Include="..\AppCrud01.Domain\AppCrud01.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SBoq723gREjYjSSweP1jNaRobwjwF7pgHXmK7yd1vPGebiUFZ8Mlk7Rzya6p5b6fLNB3SPK3njRrfDBqkahzoA==",
+  "dgSpecHash": "1QdwcjK/hqJ+mA/wKx6zQiFpvBawCHOHrOWDgnuq2R/BAEk6ns6vpwx7Yz2RuOaIMSsQAQwwl6NvYVftClJjIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsant\\source\\repos\\Aula\\AppCrud01\\AppCrud01.csproj",
+  "projectFilePath": "C:\\Users\\zsant\\source\\repos\\AppCrudAPI\\AppCrud01\\AppCrud01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsant\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

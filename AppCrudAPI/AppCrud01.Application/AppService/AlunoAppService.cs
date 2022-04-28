@@ -1,4 +1,6 @@
-﻿using AppCrud01.Domain.Entities;
+﻿using AppCrud01.Application.ViewModel;
+using AppCrud01.Domain.Entities;
+using AppCrud01.Domain.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +13,28 @@ namespace AppCrud01.Application.AppService
     {
         private Aluno _aluno;
 
-        public AlunoAppService() { }
+        private IAlunoService _alunoService;
 
-        public string GetAluno( int idAluno )
+
+        public AlunoAppService() { } //Construtor da página
+
+        public AlunoAppService (IAlunoService alunoService)
         {
-            throw new NotImplementedException();
+            _alunoService = alunoService;
         }
+
+
+        public AlunoResultViewModel GetAluno( int idAluno )
+        {
+            //throw new NotImplementedException();
+            AlunoResultViewModel alunovm = new AlunoResultViewModel();
+            return null;
+        }
+
+      
+
+        
+
+
     }
 }

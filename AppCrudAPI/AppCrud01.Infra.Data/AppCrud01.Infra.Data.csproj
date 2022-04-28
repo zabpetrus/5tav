@@ -10,4 +10,12 @@
     <PackageReference Include="AutoMapper" Version="11.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppCrud01.Domain\AppCrud01.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contexto\" />
+  </ItemGroup>
+
 </Project>

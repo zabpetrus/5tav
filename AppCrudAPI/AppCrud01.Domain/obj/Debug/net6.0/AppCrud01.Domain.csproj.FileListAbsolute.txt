@@ -1,0 +1,12 @@
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\bin\Debug\net6.0\AppCrud01.Domain.deps.json
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\bin\Debug\net6.0\AppCrud01.Domain.dll
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\bin\Debug\net6.0\AppCrud01.Domain.pdb
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.csproj.AssemblyReference.cache
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.AssemblyInfoInputs.cache
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.AssemblyInfo.cs
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.csproj.CoreCompileInputs.cache
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.dll
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\refint\AppCrud01.Domain.dll
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\AppCrud01.Domain.pdb
+C:\Users\zsant\source\repos\AppCrudAPI\AppCrud01.Domain\obj\Debug\net6.0\ref\AppCrud01.Domain.dll

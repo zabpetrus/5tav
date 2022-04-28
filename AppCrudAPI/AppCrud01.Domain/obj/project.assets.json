@@ -160,11 +160,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsant\\source\\repos\\Aula\\AppCrud01.Domain\\AppCrud01.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\zsant\\source\\repos\\AppCrudAPI\\AppCrud01.Domain\\AppCrud01.Domain.csproj",
       "projectName": "AppCrud01.Domain",
-      "projectPath": "C:\\Users\\zsant\\source\\repos\\Aula\\AppCrud01.Domain\\AppCrud01.Domain.csproj",
+      "projectPath": "C:\\Users\\zsant\\source\\repos\\AppCrudAPI\\AppCrud01.Domain\\AppCrud01.Domain.csproj",
       "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zsant\\source\\repos\\Aula\\AppCrud01.Domain\\obj\\",
+      "outputPath": "C:\\Users\\zsant\\source\\repos\\AppCrudAPI\\AppCrud01.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
