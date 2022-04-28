@@ -15,7 +15,6 @@ namespace AppCrud01.Application.AppService
 
         private IAlunoService _alunoService;
 
-
         public AlunoAppService() { } //Construtor da página
 
         public AlunoAppService (IAlunoService alunoService)
@@ -27,8 +26,15 @@ namespace AppCrud01.Application.AppService
         public AlunoResultViewModel GetAluno( int idAluno )
         {
             //throw new NotImplementedException();
-            AlunoResultViewModel alunovm = new AlunoResultViewModel();
-            return null;
+
+           // AlunoResultViewModel alunovm = new AlunoResultViewModel();
+           // alunovm.setMatricula("123456");
+           // return alunovm;
+
+            Aluno aluno = _alunoService.GetById( idAluno );
+            AlunoResultViewModel alunoResult = new AlunoResultViewModel();
+            alunoResult.setMatricula(aluno.getMatricula());
+            return alunoResult;
         }
 
       

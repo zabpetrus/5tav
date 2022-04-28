@@ -22,8 +22,17 @@ namespace AppCrud01.Domain.Entities
             Nome = nome;   
             Matricula = matricula;
         }
-            
-                
+
+        //Getters
+        public int getId() { return Id; }
+        public string getNome() { return Nome; }
+        public string getMatricula() { return Matricula; }
+
+
+        //Setters
+        public void setId(int id) { Id = id; }
+        public void setNome(string nome) { Nome = nome; }
+        public void setMatricula(string matricula) { Matricula = matricula; }
 
     }
 }
