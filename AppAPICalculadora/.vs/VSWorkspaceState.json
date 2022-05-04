@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AppAPICalculadora",
+    "\\AppAPICalculadoraTests",
+    "\\AppAPICalculadora\\Controllers",
+    "\\AppAPICalculadora\\Models"
+  ],
+  "SelectedNode": "\\AppAPICalculadora\\Models\\Duocalc.cs",
+  "PreviewInSolutionExplorer": false
+}
