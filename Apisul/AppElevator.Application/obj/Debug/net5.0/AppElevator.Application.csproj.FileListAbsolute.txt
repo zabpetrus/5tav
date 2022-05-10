@@ -1,0 +1,17 @@
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Application.deps.json
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Application.dll
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Application.pdb
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.csproj.AssemblyReference.cache
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.AssemblyInfoInputs.cache
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.AssemblyInfo.cs
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.csproj.CoreCompileInputs.cache
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.dll
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\refint\AppElevator.Application.dll
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.pdb
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\ref\AppElevator.Application.dll
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Domain.dll
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Domain.pdb
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\obj\Debug\net5.0\AppElevator.Application.csproj.CopyComplete
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Infra.Data.dll
+C:\Users\zsant\source\repos\Apisul\AppElevator.Application\bin\Debug\net5.0\AppElevator.Infra.Data.pdb
