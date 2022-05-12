@@ -1,0 +1,15 @@
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\bin\Debug\net5.0\AppExEscola01.Application.deps.json
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\bin\Debug\net5.0\AppExEscola01.Application.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\bin\Debug\net5.0\AppExEscola01.Application.pdb
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.csproj.AssemblyReference.cache
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.AssemblyInfoInputs.cache
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.AssemblyInfo.cs
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.csproj.CoreCompileInputs.cache
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\refint\AppExEscola01.Application.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.pdb
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\ref\AppExEscola01.Application.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\bin\Debug\net5.0\AppExEscola01.Domain.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\bin\Debug\net5.0\AppExEscola01.Domain.pdb
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Application\obj\Debug\net5.0\AppExEscola01.Application.csproj.CopyComplete

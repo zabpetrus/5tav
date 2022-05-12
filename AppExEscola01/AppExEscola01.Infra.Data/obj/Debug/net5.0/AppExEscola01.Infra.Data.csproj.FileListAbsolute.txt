@@ -1,0 +1,12 @@
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\bin\Debug\net5.0\AppExEscola01.Infra.Data.deps.json
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\bin\Debug\net5.0\AppExEscola01.Infra.Data.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\bin\Debug\net5.0\AppExEscola01.Infra.Data.pdb
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.csproj.AssemblyReference.cache
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.AssemblyInfoInputs.cache
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.AssemblyInfo.cs
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\refint\AppExEscola01.Infra.Data.dll
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.pdb
+C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\ref\AppExEscola01.Infra.Data.dll

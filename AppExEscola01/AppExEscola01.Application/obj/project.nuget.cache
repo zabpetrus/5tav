@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JiB9DLUQcimCFq0TJw9XwXzUhV3Fo7PyAhXroi498Js8JNZ3I9dgQxA1jG8kOBfjxoJyOOfzI11D9XPwlJZ0XA==",
+  "success": true,
+  "projectFilePath": "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zsant\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\zsant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\zsant\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
