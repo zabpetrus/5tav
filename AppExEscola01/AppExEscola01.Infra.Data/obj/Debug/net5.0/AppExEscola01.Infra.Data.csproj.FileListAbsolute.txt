@@ -10,3 +10,15 @@ C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net
 C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\refint\AppExEscola01.Infra.Data.dll
 C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.pdb
 C:\Users\zsant\source\repos\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\ref\AppExEscola01.Infra.Data.dll
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\bin\Debug\net5.0\AppExEscola01.Infra.Data.deps.json
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\bin\Debug\net5.0\AppExEscola01.Infra.Data.dll
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\bin\Debug\net5.0\AppExEscola01.Infra.Data.pdb
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.csproj.AssemblyReference.cache
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.AssemblyInfoInputs.cache
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.AssemblyInfo.cs
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.csproj.CoreCompileInputs.cache
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.dll
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\refint\AppExEscola01.Infra.Data.dll
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\AppExEscola01.Infra.Data.pdb
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.Data\obj\Debug\net5.0\ref\AppExEscola01.Infra.Data.dll
