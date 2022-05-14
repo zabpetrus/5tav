@@ -16,7 +16,7 @@ namespace AppExEscola01.Application.Interfaces
 
         Aluno GetByName(string name);
 
-        void Add(Aluno aluno);
+        AlunoResultViewModel Create(AlunoCreateViewModel aluno);
 
         void Update(Aluno aluno);   
 

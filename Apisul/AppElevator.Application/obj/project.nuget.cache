@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9AQhNYm/XAfDfo447hv0yZreN7+utamiabGVp9oTGSpOz/8GZlG9a5ipdd3BuRSbLE5Tf/UgU42ku8OI54FbuQ==",
+  "dgSpecHash": "79crnpPxQoABwwjrM6sWUjdW/zhyaJ49W5Cj1QKAa2ZWzKgHymvNncCsWFPiywbRdCdvEDp+7pbepdALLOs7OA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator.Application\\AppElevator.Application.csproj",
+  "projectFilePath": "D:\\vstudio\\Apisul\\AppElevator.Application\\AppElevator.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsant\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

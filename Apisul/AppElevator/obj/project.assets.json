@@ -404,11 +404,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator\\AppElevator.Api.csproj",
+      "projectUniqueName": "D:\\vstudio\\Apisul\\AppElevator\\AppElevator.Api.csproj",
       "projectName": "AppElevator.Api",
-      "projectPath": "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator\\AppElevator.Api.csproj",
+      "projectPath": "D:\\vstudio\\Apisul\\AppElevator\\AppElevator.Api.csproj",
       "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator\\obj\\",
+      "outputPath": "D:\\vstudio\\Apisul\\AppElevator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -429,11 +429,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator.Application\\AppElevator.Application.csproj": {
-              "projectPath": "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator.Application\\AppElevator.Application.csproj"
+            "D:\\vstudio\\Apisul\\AppElevator.Application\\AppElevator.Application.csproj": {
+              "projectPath": "D:\\vstudio\\Apisul\\AppElevator.Application\\AppElevator.Application.csproj"
             },
-            "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator.Domain\\AppElevator.Domain.csproj": {
-              "projectPath": "C:\\Users\\zsant\\source\\repos\\Apisul\\AppElevator.Domain\\AppElevator.Domain.csproj"
+            "D:\\vstudio\\Apisul\\AppElevator.Domain\\AppElevator.Domain.csproj": {
+              "projectPath": "D:\\vstudio\\Apisul\\AppElevator.Domain\\AppElevator.Domain.csproj"
             }
           }
         }
@@ -479,7 +479,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1703,6 +1703,21 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
+      "AppExEscola01.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AppExEscola01.Domain": "1.0.0",
+          "AutoMapper": "11.0.1",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AppExEscola01.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppExEscola01.Application.dll": {}
+        }
+      },
       "AppExEscola01.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6134,6 +6149,11 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "AppExEscola01.Application/1.0.0": {
+      "type": "project",
+      "path": "../AppExEscola01.Application/AppExEscola01.Application.csproj",
+      "msbuildProject": "../AppExEscola01.Application/AppExEscola01.Application.csproj"
+    },
     "AppExEscola01.Domain/1.0.0": {
       "type": "project",
       "path": "../AppExEscola01.Domain/AppExEscola01.Domain.csproj",
@@ -6142,6 +6162,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AppExEscola01.Application >= 1.0.0",
       "AppExEscola01.Domain >= 1.0.0",
       "AutoMapper >= 11.0.1",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
@@ -6184,6 +6205,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj": {
+              "projectPath": "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj"
+            },
             "D:\\vstudio\\AppExEscola01\\AppExEscola01.Domain\\AppExEscola01.Domain.csproj": {
               "projectPath": "D:\\vstudio\\AppExEscola01\\AppExEscola01.Domain\\AppExEscola01.Domain.csproj"
             }

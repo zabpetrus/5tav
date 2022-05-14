@@ -23,10 +23,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Application\" />
+    <Folder Include="AppData\" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AppExEscola01.Application\AppExEscola01.Application.csproj" />
     <ProjectReference Include="..\AppExEscola01.Domain\AppExEscola01.Domain.csproj" />
   </ItemGroup>
 

@@ -32,7 +32,9 @@ namespace AppExEscola01.Api.Controllers
         [HttpPost]
         public void Post([FromBody] AlunoCreateViewModel alunoCreateViewModel)
         {
-            
+            //Criação da entidade AlunoMatriculado receberá um aluno pré-matriculado
+            AlunoResultViewModel novoaluno = new AlunoResultViewModel(alunoCreateViewModel);
+
         }
 
         // PUT api/<AlunoController>/5

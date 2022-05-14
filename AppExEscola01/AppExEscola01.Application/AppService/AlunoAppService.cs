@@ -14,9 +14,20 @@ namespace AppExEscola01.Application.AppService
 
         private Aluno _aluno;
 
-        public void Add(Aluno aluno)
+        public AlunoResultViewModel Create(AlunoCreateViewModel aluno)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            AlunoResultViewModel alunoResult = new AlunoResultViewModel(
+                1,
+                "Brutal Bull",
+                "123456",
+                "612.547.851-36",
+                "21589-555",
+                "20/09/2001"
+               );
+
+            alunoResult.SetResultValidation(false);
+            return alunoResult;
         }
 
         public void Delete(Aluno aluno)
