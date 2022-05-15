@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Izabel Santos\\source\\repos\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj": {}
+    "D:\\vstudio\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Izabel Santos\\source\\repos\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj": {
+    "D:\\vstudio\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Izabel Santos\\source\\repos\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj",
+        "projectUniqueName": "D:\\vstudio\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj",
         "projectName": "ConsoleConnectiongAPI",
-        "projectPath": "C:\\Users\\Izabel Santos\\source\\repos\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj",
-        "packagesPath": "C:\\Users\\Izabel Santos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Izabel Santos\\source\\repos\\CalculoFrete\\ConsoleConnectiongAPI\\obj\\",
+        "projectPath": "D:\\vstudio\\CalculoFrete\\ConsoleConnectiongAPI\\ConsoleConnectiongAPI.csproj",
+        "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
+        "outputPath": "D:\\vstudio\\CalculoFrete\\ConsoleConnectiongAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Izabel Santos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -49,49 +46,49 @@
           "dependencies": {
             "Google.Protobuf": {
               "target": "Package",
-              "version": "[3.13.0, )"
+              "version": "[3.20.1, )"
             },
             "Grpc.Net.ClientFactory": {
               "target": "Package",
-              "version": "[2.32.0, )"
+              "version": "[2.46.0, )"
             },
             "Grpc.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.32.0, )"
+              "version": "[2.46.1, )"
             },
             "Microsoft.Extensions.ApiDescription.Client": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[6.0.5, )"
             },
             "NSwag.ApiDescription.Client": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[13.0.5, )"
+              "version": "[13.15.10, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.2, )"
+              "version": "[13.0.1, )"
             },
             "System.ServiceModel.Duplex": {
               "target": "Package",
-              "version": "[4.8.*, )"
+              "version": "[4.9.0, )"
             },
             "System.ServiceModel.Http": {
               "target": "Package",
-              "version": "[4.8.*, )"
+              "version": "[4.9.0, )"
             },
             "System.ServiceModel.NetTcp": {
               "target": "Package",
-              "version": "[4.8.*, )"
+              "version": "[4.9.0, )"
             },
             "System.ServiceModel.Security": {
               "target": "Package",
-              "version": "[4.8.*, )"
+              "version": "[4.9.0, )"
             }
           },
           "imports": [
@@ -109,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
