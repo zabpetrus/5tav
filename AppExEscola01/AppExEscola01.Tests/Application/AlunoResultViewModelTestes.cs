@@ -1,4 +1,8 @@
-﻿using AppExEscola01.Application.ViewModel;
+﻿using AppExEscola01.Application.AppService;
+using AppExEscola01.Application.Interfaces;
+using AppExEscola01.Application.ViewModel;
+using AppExEscola01.Domain.Entities;
+using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +30,18 @@ namespace AppExEscola01.Tests.Application
             alunoResult.SetResultValidation(false);
             Assert.NotNull(alunoResult);
             
+
+        }
+
+        [Fact]
+        public void Test2()
+        {
+            AlunoCreateViewModel alunoCreateViewModel = new AlunoCreateViewModel("Jose", "23658745983", "pombomail@mail.com", "26875-589");
+            Aluno aluno = new Aluno(alunoCreateViewModel);
+
+            Mock<IAlunoService> mockAlunoService = new Mock<IAlunoService>();
+           // mockAlunoService.Setup(m => m.Create(aluno)).Returns(true);
+
 
         }
     }

@@ -10,7 +10,13 @@ namespace AppExEscola01.Application.ViewModel
     //Antes de se matricular não há id e nem matrícula.
     public class AlunoCreateViewModel
     {
-      
+        private string Nome;
+        private string Cpf;
+        private string Cep;
+        private string DataNascimento;
+
+        public AlunoCreateViewModel(){ }
+
         public AlunoCreateViewModel(string nome, string cpf, string cep, string dataNascimento)
         {
             Nome = nome;
@@ -19,14 +25,52 @@ namespace AppExEscola01.Application.ViewModel
             DataNascimento = dataNascimento;
         }
 
-        private string Nome { get; set; }
+        
 
-        private string Cpf { get; set; }
+        public string GetNome()
+        {
+            return Nome;
+        }
 
-        private string Cep { get; set; }
+        public void SetNome(string value)
+        {
+            Nome = value;
+        }
 
-        private string DataNascimento { get; set; }
+        
 
+        public string GetCpf()
+        {
+            return Cpf;
+        }
 
+        public void SetCpf(string value)
+        {
+            Cpf = value;
+        }
+
+        
+
+        public string GetCep()
+        {
+            return Cep;
+        }
+
+        public void SetCep(string value)
+        {
+            Cep = value;
+        }
+
+        
+
+        public string GetDataNascimento()
+        {
+            return DataNascimento;
+        }
+
+        public void SetDataNascimento(string value)
+        {
+            DataNascimento = value;
+        }
     }
 }

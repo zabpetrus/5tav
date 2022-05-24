@@ -31,11 +31,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "D:\\vstudio\\AppExEscola01\\AppExEscola01.Domain\\AppExEscola01.Domain.csproj": {
-                "projectPath": "D:\\vstudio\\AppExEscola01\\AppExEscola01.Domain\\AppExEscola01.Domain.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -103,7 +99,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj": {
+                "projectPath": "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

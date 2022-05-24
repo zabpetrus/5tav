@@ -1,14 +1,14 @@
-﻿using AppExEscola01.Domain.Validation.Services;
+﻿using AppExEscola01.Application.ViewModel;
+using AppExEscola01.Domain.Validation.Services;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppExEscola01.Domain.Entities
 {
     public class Aluno
     {
+
+          
+
         private int Id { get; set; }
 
         private string Nome { get; set; }
@@ -20,6 +20,8 @@ namespace AppExEscola01.Domain.Entities
         private string Cep { get; set; }
 
         private string DataNascimento { get; set; }
+
+        private AlunoCreateViewModel AlunoCreateViewModel { get; set; }
 
         //Setters
 
@@ -106,6 +108,25 @@ namespace AppExEscola01.Domain.Entities
         public string getCep() { return Cep; }
 
         public string getDataNascimento() { return DataNascimento; }
+
+
+        //Construtores
+
+        public Aluno() { }
+
+        public Aluno(string nome, string cep, string cpf, string datanascimento)
+        {
+            Nome = nome;
+            Cep = cep;
+            Cpf = cpf;
+            DataNascimento = datanascimento;
+        }
+
+        public Aluno( AlunoCreateViewModel alunoCreateViewModel )
+        {
+            this.AlunoCreateViewModel = alunoCreateViewModel;
+        }
+        
 
 
     }

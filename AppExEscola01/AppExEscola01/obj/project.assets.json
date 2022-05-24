@@ -107,7 +107,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "AppExEscola01.Domain": "1.0.0",
           "AutoMapper": "11.0.1",
           "Newtonsoft.Json": "13.0.1"
         },
@@ -116,20 +115,6 @@
         },
         "runtime": {
           "bin/placeholder/AppExEscola01.Application.dll": {}
-        }
-      },
-      "AppExEscola01.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "AutoMapper": "11.0.1",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "compile": {
-          "bin/placeholder/AppExEscola01.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AppExEscola01.Domain.dll": {}
         }
       }
     }
@@ -375,11 +360,6 @@
       "type": "project",
       "path": "../AppExEscola01.Application/AppExEscola01.Application.csproj",
       "msbuildProject": "../AppExEscola01.Application/AppExEscola01.Application.csproj"
-    },
-    "AppExEscola01.Domain/1.0.0": {
-      "type": "project",
-      "path": "../AppExEscola01.Domain/AppExEscola01.Domain.csproj",
-      "msbuildProject": "../AppExEscola01.Domain/AppExEscola01.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {

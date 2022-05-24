@@ -1713,7 +1713,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "AppExEscola01.Domain": "1.0.0",
           "AutoMapper": "11.0.1",
           "Newtonsoft.Json": "13.0.1"
         },
@@ -1728,6 +1727,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "AppExEscola01.Application": "1.0.0",
           "AutoMapper": "11.0.1",
           "Newtonsoft.Json": "13.0.1"
         },

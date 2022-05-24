@@ -31,6 +31,20 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "AppExEscola01.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "11.0.1",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/AppExEscola01.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AppExEscola01.Application.dll": {}
+        }
       }
     }
   },
@@ -145,10 +159,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "AppExEscola01.Application/1.0.0": {
+      "type": "project",
+      "path": "../AppExEscola01.Application/AppExEscola01.Application.csproj",
+      "msbuildProject": "../AppExEscola01.Application/AppExEscola01.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "AppExEscola01.Application >= 1.0.0",
       "AutoMapper >= 11.0.1",
       "Newtonsoft.Json >= 13.0.1"
     ]
@@ -184,7 +204,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj": {
+              "projectPath": "D:\\vstudio\\AppExEscola01\\AppExEscola01.Application\\AppExEscola01.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

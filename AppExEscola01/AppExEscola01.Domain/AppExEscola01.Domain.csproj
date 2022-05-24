@@ -14,4 +14,8 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AppExEscola01.Application\AppExEscola01.Application.csproj" />
+  </ItemGroup>
+
 </Project>

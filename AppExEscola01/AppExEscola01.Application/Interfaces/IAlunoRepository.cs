@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AppExEscola01.Application.Interfaces
 {
-    internal interface IAlunoRepository
+    public interface IAlunoRepository
     {
         List<Aluno> GetAll();
 

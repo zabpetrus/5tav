@@ -32,8 +32,13 @@ namespace AppExEscola01.Api.Controllers
         [HttpPost]
         public void Post([FromBody] AlunoCreateViewModel alunoCreateViewModel)
         {
+            //Recebido da Tela
             //Criação da entidade AlunoMatriculado receberá um aluno pré-matriculado
-            AlunoResultViewModel novoaluno = new AlunoResultViewModel(alunoCreateViewModel);
+            AlunoAppService alunoAppService = new AlunoAppService();
+            if(alunoCreateViewModel != null)
+            {
+                var alunoVM = alunoAppService.Create(alunoCreateViewModel);
+            }
 
         }
 

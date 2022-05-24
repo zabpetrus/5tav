@@ -12,22 +12,36 @@ namespace AppExEscola01.Application.AppService
     public class AlunoAppService : IAlunoService
     {
 
-        private Aluno _aluno;
+        private IAlunoService _alunoService;
+        private AlunoCreateViewModel alunoCreateViewModel;
+
+        public AlunoAppService()
+        {
+        }
+
+        public AlunoAppService(IAlunoService alunoService)
+        {
+            _alunoService = alunoService;
+        }
+
+        public AlunoAppService(AlunoCreateViewModel alunoCreateViewModel)
+        {
+            this.alunoCreateViewModel = alunoCreateViewModel;
+        }
 
         public AlunoResultViewModel Create(AlunoCreateViewModel aluno)
         {
             //throw new NotImplementedException();
-            AlunoResultViewModel alunoResult = new AlunoResultViewModel(
-                1,
-                "Brutal Bull",
-                "123456",
-                "612.547.851-36",
-                "21589-555",
-                "20/09/2001"
-               );
 
-            alunoResult.SetResultValidation(false);
-            return alunoResult;
+            Aluno alunoNew = new Aluno(
+                aluno.GetNome(),
+                aluno.GetCep(),
+                aluno.GetCep(),
+                aluno.GetDataNascimento()
+            );
+            AlunoResultViewModel alunoResult = new AlunoResultViewModel();
+
+            return null;
         }
 
         public void Delete(Aluno aluno)

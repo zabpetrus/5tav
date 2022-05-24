@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace AppExEscola01.Application.Interfaces
 {
-    internal interface IAlunoService
+    public interface IAlunoService
     {
         List<Aluno> GetAll();
 
