@@ -1,3 +1,4 @@
+using AppExEscola01.Infra.CrossCutting.DI;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -21,12 +22,15 @@ namespace AppExEscola01
             Configuration = configuration;
         }
 
+        public DependencyInjectionService DependencyInjectionService { get; set; }
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
 
+            DependencyInjectionService.RegisterDependencyInjection(Configuration, services);
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

@@ -3,45 +3,69 @@ using AppExEscola01.Application.ViewModel;
 using AppExEscola01.Domain.Entities;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppExEscola01.Application.AppService
 {
-    public class AlunoAppService : IAlunoService
+
+    //Antes implementava a interface IAlunoService
+    //Agora passou  a ser a interface IAlunoAppService
+    public class AlunoAppService : IAlunoAppService
     {
+        private IAlunoAppService _alunoAppService;
+        //private IAlunoService _alunoService;
 
-        private IAlunoService _alunoService;
-        private AlunoCreateViewModel alunoCreateViewModel;
 
-        public AlunoAppService()
+        public AlunoAppService(){ }
+
+        // Versão anterior - foi oficialmente anulada não sei porque
+        // public AlunoAppService(IAlunoService alunoService) {  _alunoService = alunoService;  }
+        public AlunoAppService(IAlunoAppService alunoAppService) { this._alunoAppService = alunoAppService; }
+
+
+        public AlunoResultViewModel Create(AlunoCreateViewModel alunoCreateViewModel)
         {
+            Aluno aluno = new Aluno();
+            aluno.setNome("sdsad");
+            aluno.setCPF("88775228017");
+            aluno.setCEP("23658-888");
+            aluno.setEmail("ghjhgjhgj@asdad.com");
+            aluno.setNascimento("2/2/222");
+            aluno.CriaMatricula();
+
+            var retorno = _alunoAppService.CreateAluno(aluno); //validação com booleano
+            if (retorno == true)
+            {
+                throw new Exception("Outro caso!");
+            }
+           
+
+
+            AlunoResultViewModel result = new AlunoResultViewModel(1, "20221123456", alunoCreateViewModel);
+            return result;                       
+
+
+            // return _alunoAppService.Create(alunoCreateViewModel);
+
         }
 
-        public AlunoAppService(IAlunoService alunoService)
+
+        public bool CreateAluno(AlunoCreateViewModel alunoCreateViewModel)
         {
-            _alunoService = alunoService;
+            if (alunoCreateViewModel == null)
+            {
+                return false;
+            }
+            return true;
+            // return _alunoAppService.CreateAluno(alunoCreateViewModel);
         }
 
-        public AlunoAppService(AlunoCreateViewModel alunoCreateViewModel)
+        public bool CreateAluno(Aluno aluno)
         {
-            this.alunoCreateViewModel = alunoCreateViewModel;
-        }
-
-        public AlunoResultViewModel Create(AlunoCreateViewModel aluno)
-        {
-            //throw new NotImplementedException();
-
-            Aluno alunoNew = new Aluno(
-                aluno.GetNome(),
-                aluno.GetCep(),
-                aluno.GetCep(),
-                aluno.GetDataNascimento()
-            );
-            AlunoResultViewModel alunoResult = new AlunoResultViewModel();
-
-            return null;
+            if(aluno == null) {
+                return false;
+            }
+            return true;
+            //return _alunoAppService.CreateAluno(aluno);
         }
 
         public void Delete(Aluno aluno)
@@ -51,17 +75,17 @@ namespace AppExEscola01.Application.AppService
 
         public List<Aluno> GetAll()
         {
-            throw new NotImplementedException();
+            return _alunoAppService.GetAll();   
         }
 
         public AlunoResultViewModel GetById(int id)
         {
-            throw new NotImplementedException();
+            return _alunoAppService.GetById(id);
         }
 
         public Aluno GetByName(string name)
         {
-            throw new NotImplementedException();
+            return _alunoAppService.GetByName(name);
         }
 
         public void Update(Aluno aluno)

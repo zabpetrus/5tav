@@ -1,19 +1,18 @@
-﻿using AppExEscola01.Application.ViewModel;
-using AppExEscola01.Domain.Validation.Services;
+﻿using AppExEscola01.Domain.Validation.Services;
 using System;
 
 namespace AppExEscola01.Domain.Entities
 {
     public class Aluno
-    {
-
-          
+    {         
 
         private int Id { get; set; }
 
+        private string Matricula { get; set; }
+
         private string Nome { get; set; }
 
-        private string Matricula { get; set; }
+        private string Email { get; set; }        
 
         private string Cpf { get; set; }
 
@@ -21,7 +20,6 @@ namespace AppExEscola01.Domain.Entities
 
         private string DataNascimento { get; set; }
 
-        private AlunoCreateViewModel AlunoCreateViewModel { get; set; }
 
         //Setters
 
@@ -57,9 +55,15 @@ namespace AppExEscola01.Domain.Entities
             else
             {
                 Cpf = cpf;
-            }
+            }            
+        }
 
-            
+        public void CriaMatricula()
+        {
+            Random numerorandom = new Random();
+            string temp = numerorandom.Next().ToString();
+            Matricula = "1";
+
         }
 
         public void setCEP(string cep)
@@ -89,10 +93,13 @@ namespace AppExEscola01.Domain.Entities
             else
             {
                 Nome = nome;
-            }
+            }            
             
-            
-            
+        }
+
+        public void setEmail(string email)
+        {
+            Email = email;
         }
 
         //Getters
@@ -109,25 +116,32 @@ namespace AppExEscola01.Domain.Entities
 
         public string getDataNascimento() { return DataNascimento; }
 
+        public string getEmail() { return Email; }                              
+
 
         //Construtores
 
         public Aluno() { }
 
-        public Aluno(string nome, string cep, string cpf, string datanascimento)
+        public Aluno(string nome, string cep, string cpf, string email, string datanascimento)
         {
             Nome = nome;
             Cep = cep;
             Cpf = cpf;
+            Email = email;              
             DataNascimento = datanascimento;
         }
 
-        public Aluno( AlunoCreateViewModel alunoCreateViewModel )
+        public Aluno(int id, string matricula, string nome, string email, string cpf, string cep, string dataNascimento)
         {
-            this.AlunoCreateViewModel = alunoCreateViewModel;
+            Id = id;
+            Matricula = matricula;
+            Nome = nome;
+            Email = email;
+            Cpf = cpf;
+            Cep = cep;
+            DataNascimento = dataNascimento;
         }
-        
-
 
     }
 }

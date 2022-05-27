@@ -6,12 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="6.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\AppExEscola01.Application\AppExEscola01.Application.csproj" />
+    <ProjectReference Include="..\AppExEscola01.Infra.CrossCutting.DI\AppExEscola01.Infra.CrossCutting.DI.csproj" />
   </ItemGroup>
 
 </Project>

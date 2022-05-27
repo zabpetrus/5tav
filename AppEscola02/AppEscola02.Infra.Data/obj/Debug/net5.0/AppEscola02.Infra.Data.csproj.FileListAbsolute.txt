@@ -1,0 +1,12 @@
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\bin\Debug\net5.0\AppEscola02.Infra.Data.deps.json
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\bin\Debug\net5.0\AppEscola02.Infra.Data.dll
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\bin\Debug\net5.0\AppEscola02.Infra.Data.pdb
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.csproj.AssemblyReference.cache
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.AssemblyInfoInputs.cache
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.AssemblyInfo.cs
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.csproj.CoreCompileInputs.cache
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.dll
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\refint\AppEscola02.Infra.Data.dll
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\AppEscola02.Infra.Data.pdb
+D:\vstudio\AppEscola02\AppEscola02.Infra.Data\obj\Debug\net5.0\ref\AppEscola02.Infra.Data.dll

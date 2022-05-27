@@ -22,5 +22,7 @@ namespace AppExEscola01.Tests.Domain
             aluno.setCEP("21630-248");
             Assert.NotNull(aluno);
         }
+
+
     }
 }

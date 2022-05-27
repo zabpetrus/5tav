@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppExEscola01.Domain", "..\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppExEscola01.Infra.Data", "..\AppExEscola01.Infra.Data\AppExEscola01.Infra.Data.csproj", "{A71FB84D-5749-4C06-AB6D-485167D6A5E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppExEscola01.Tests", "..\AppExEscola01.Tests\AppExEscola01.Tests.csproj", "{05819EE6-A9BA-432D-8DAE-AEB8BEBF8EF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppExEscola01.Tests", "..\AppExEscola01.Tests\AppExEscola01.Tests.csproj", "{05819EE6-A9BA-432D-8DAE-AEB8BEBF8EF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppExEscola01.Infra.CrossCutting.DI", "..\AppExEscola01.Infra.CrossCutting.DI\AppExEscola01.Infra.CrossCutting.DI.csproj", "{8E06C52C-A667-41CF-AC1F-8BC685E704B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{05819EE6-A9BA-432D-8DAE-AEB8BEBF8EF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05819EE6-A9BA-432D-8DAE-AEB8BEBF8EF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05819EE6-A9BA-432D-8DAE-AEB8BEBF8EF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E06C52C-A667-41CF-AC1F-8BC685E704B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E06C52C-A667-41CF-AC1F-8BC685E704B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E06C52C-A667-41CF-AC1F-8BC685E704B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E06C52C-A667-41CF-AC1F-8BC685E704B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

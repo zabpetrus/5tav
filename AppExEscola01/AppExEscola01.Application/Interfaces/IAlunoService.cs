@@ -16,7 +16,11 @@ namespace AppExEscola01.Application.Interfaces
 
         Aluno GetByName(string name);
 
+        //Método anterior - create original
         AlunoResultViewModel Create(AlunoCreateViewModel aluno);
+
+        //Novo método  - Sincronizado om IAlunoAppService
+        bool CreateAluno(AlunoCreateViewModel aluno); 
 
         void Update(Aluno aluno);   
 

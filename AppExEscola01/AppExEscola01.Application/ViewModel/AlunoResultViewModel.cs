@@ -12,16 +12,19 @@ namespace AppExEscola01.Application.ViewModel
 
         public AlunoResultViewModel() { }
       
-        public AlunoResultViewModel(AlunoCreateViewModel alunocreateViewModel)
+        public AlunoResultViewModel(int id, string matricula, AlunoCreateViewModel alunocreateViewModel)
         {
-            _alunocreateViewModel = alunocreateViewModel;
+            Id = id;
+            Matricula = matricula;
+            Set_alunocreateViewModel(alunocreateViewModel);
         }
 
-        public AlunoResultViewModel(int id, string nome, string matricula, string cpf, string cep, string dataNascimento)
+        public AlunoResultViewModel(int id, string nome, string matricula, string email, string cpf, string cep, string dataNascimento)
         {
             Id = id;
             Nome = nome;
             Matricula = matricula;
+            Email = email;
             Cpf = cpf;
             Cep = cep;
             DataNascimento = dataNascimento;            
@@ -37,15 +40,18 @@ namespace AppExEscola01.Application.ViewModel
 
         private string Cep { get; set; }
        
-        private string DataNascimento {  get; set; }           
+        private string DataNascimento {  get; set; } 
+        
+        private string Email { get; set; }
 
         private bool ResultValidation { get; set; }
 
-        private AlunoCreateViewModel _alunocreateViewModel { get; set; }
+
+        private AlunoCreateViewModel _alunocreateViewModel1;
+             
 
 
-
-    //Getters
+        //Getters
 
         public int GetId()
         {
@@ -57,7 +63,7 @@ namespace AppExEscola01.Application.ViewModel
             return Matricula;
         }
 
-         public bool GetResultValidation()
+        public bool GetResultValidation()
         {
             return ResultValidation;
         }
@@ -80,6 +86,11 @@ namespace AppExEscola01.Application.ViewModel
         public string GetDataNascimento()
         {
             return DataNascimento;
+        }
+
+        public string GetEmail()
+        {
+            return Email;
         }
 
         //Setters
@@ -117,6 +128,21 @@ namespace AppExEscola01.Application.ViewModel
         public void SetCep(string value)
         {
             Cep = value;
+        }
+
+        public void SetEmail(string email)
+        {
+            Email = email;
+        }
+
+        public AlunoCreateViewModel Get_alunocreateViewModel()
+        {
+            return _alunocreateViewModel1;
+        }
+
+        public void Set_alunocreateViewModel(AlunoCreateViewModel value)
+        {
+            _alunocreateViewModel1 = value;
         }
 
 

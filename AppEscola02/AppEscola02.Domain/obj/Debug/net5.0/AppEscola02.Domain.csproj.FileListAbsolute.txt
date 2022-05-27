@@ -1,0 +1,12 @@
+D:\vstudio\AppEscola02\AppEscola02.Domain\bin\Debug\net5.0\AppEscola02.Domain.deps.json
+D:\vstudio\AppEscola02\AppEscola02.Domain\bin\Debug\net5.0\AppEscola02.Domain.dll
+D:\vstudio\AppEscola02\AppEscola02.Domain\bin\Debug\net5.0\AppEscola02.Domain.pdb
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.csproj.AssemblyReference.cache
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.AssemblyInfoInputs.cache
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.AssemblyInfo.cs
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.csproj.CoreCompileInputs.cache
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.dll
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\refint\AppEscola02.Domain.dll
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\AppEscola02.Domain.pdb
+D:\vstudio\AppEscola02\AppEscola02.Domain\obj\Debug\net5.0\ref\AppEscola02.Domain.dll
