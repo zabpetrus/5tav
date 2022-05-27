@@ -1,17 +1,15 @@
+using AppExEscola01.Application.AppService;
+using AppExEscola01.Application.Interfaces;
+using AppExEscola01.Domain.Services;
 using AppExEscola01.Infra.CrossCutting.DI;
+using AppExEscola01.Infra.Data.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using IAlunoRepository = AppExEscola01.Application.Interfaces.IAlunoRepository;
 
 namespace AppExEscola01
 {
@@ -22,15 +20,17 @@ namespace AppExEscola01
             Configuration = configuration;
         }
 
-        public DependencyInjectionService DependencyInjectionService { get; set; }
+        DependencyInjectionService dependencyInjectionServices = new DependencyInjectionService();
+
 
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            DependencyInjectionService.RegisterDependencyInjection(Configuration, services);
+            services.AddScoped<IAlunoAppService, AlunoAppService>();
+            services.AddScoped<AppEscola01.Domain.Interfaces.IAlunoService, AlunoService>();
+            services.AddScoped<IAlunoRepository, AlunoRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

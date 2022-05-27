@@ -1,8 +1,3 @@
-D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.csproj.AssemblyReference.cache
-D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.GeneratedMSBuildEditorConfig.editorconfig
-D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.AssemblyInfoInputs.cache
-D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.AssemblyInfo.cs
-D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.csproj.CoreCompileInputs.cache
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.deps.json
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.dll
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.pdb
@@ -12,6 +7,11 @@ D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\Ap
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\AppExEscola01.Application.pdb
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\AppExEscola01.Infra.Data.pdb
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\bin\Debug\net5.0\AppExEscola01.Domain.pdb
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.csproj.AssemblyReference.cache
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.AssemblyInfoInputs.cache
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.AssemblyInfo.cs
+D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.csproj.CoreCompileInputs.cache
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.csproj.CopyComplete
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\AppExEscola01.Infra.CrossCutting.DI.dll
 D:\vstudio\AppExEscola01\AppExEscola01.Infra.CrossCutting.DI\obj\Debug\net5.0\refint\AppExEscola01.Infra.CrossCutting.DI.dll

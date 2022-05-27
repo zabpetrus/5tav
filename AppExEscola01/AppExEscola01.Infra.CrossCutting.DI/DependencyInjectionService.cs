@@ -4,17 +4,16 @@ using AppExEscola01.Domain.Services;
 using AppExEscola01.Infra.Data.Repository;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 
 namespace AppExEscola01.Infra.CrossCutting.DI
 {
     public class DependencyInjectionService
     {
-        public void RegisterDependencyInjection(IConfiguration configuration,IServiceCollection services)
+        public void RegisterDependencyInjection(IConfiguration configuration, IServiceCollection services)
         {
-            // RegisterApplicationService(services);
-            //  RegisterService(services);
-            //  RegisterRepository(services);
+            RegisterApplicationService(services);
+            RegisterService(services);
+            RegisterRepository(services);
         }
         private void RegisterApplicationService(IServiceCollection services)
         {

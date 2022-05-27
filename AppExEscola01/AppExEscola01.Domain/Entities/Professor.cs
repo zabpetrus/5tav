@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AppExEscola01.Domain.Entities
+﻿namespace AppExEscola01.Domain.Entities
 {
     public class Professor
     {
@@ -23,11 +17,11 @@ namespace AppExEscola01.Domain.Entities
         public void setID(int id)
         {
             Id = id;
-        }               
+        }
 
         public void setNome(string nome)
         {
-            Nome = nome;    
+            Nome = nome;
         }
 
         public void setNascimento(string dataNascimento)

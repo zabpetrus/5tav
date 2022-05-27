@@ -4,7 +4,7 @@ using System;
 namespace AppExEscola01.Domain.Entities
 {
     public class Aluno
-    {         
+    {
 
         private int Id { get; set; }
 
@@ -12,7 +12,7 @@ namespace AppExEscola01.Domain.Entities
 
         private string Nome { get; set; }
 
-        private string Email { get; set; }        
+        private string Email { get; set; }
 
         private string Cpf { get; set; }
 
@@ -42,7 +42,7 @@ namespace AppExEscola01.Domain.Entities
 
             if (!tamanhovalido)
             {
-                throw new Exception("O numero do cpf está errado.");
+                throw new Exception("O numero do cpf " + cpf  + "está errado.");
             }
             else if (!temSoNumeros)
             {
@@ -50,12 +50,12 @@ namespace AppExEscola01.Domain.Entities
             }
             else if (!numerovalido)
             {
-                throw new Exception("Esse CPF não existe!!!");
+                throw new Exception("O CPF" + cpf + "não existe!!!");
             }
             else
             {
                 Cpf = cpf;
-            }            
+            }
         }
 
         public void CriaMatricula()
@@ -93,8 +93,8 @@ namespace AppExEscola01.Domain.Entities
             else
             {
                 Nome = nome;
-            }            
-            
+            }
+
         }
 
         public void setEmail(string email)
@@ -106,7 +106,7 @@ namespace AppExEscola01.Domain.Entities
 
         public int getID() { return Id; }
 
-        public string getNome() { return Nome; }    
+        public string getNome() { return Nome; }
 
         public string getMatricula() { return Matricula; }
 
@@ -116,7 +116,7 @@ namespace AppExEscola01.Domain.Entities
 
         public string getDataNascimento() { return DataNascimento; }
 
-        public string getEmail() { return Email; }                              
+        public string getEmail() { return Email; }
 
 
         //Construtores
@@ -128,7 +128,7 @@ namespace AppExEscola01.Domain.Entities
             Nome = nome;
             Cep = cep;
             Cpf = cpf;
-            Email = email;              
+            Email = email;
             DataNascimento = datanascimento;
         }
 

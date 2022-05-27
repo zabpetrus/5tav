@@ -1,35 +1,29 @@
 ﻿using AppExEscola01.Application.AppService;
 using AppExEscola01.Application.Interfaces;
 using AppExEscola01.Application.ViewModel;
-using AppExEscola01.Domain.Entities;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace AppExEscola01.Tests.Application
 {
-    public class AlunoTestes2
+    public class AlunoApplicationTeste2
     {
         [Fact]
         public void Test1()
-        {            
+        {
 
             AlunoResultViewModel alunoResult = new AlunoResultViewModel(
                 1,
                 "Brutal Bull",
                 "123456",
                 "pombomail@mail.com",
-                "612.547.851-36",
+                "176.031.590-75",
                 "21589-555",
-                "20/09/2001"               
+                "20/09/2001"
                );
 
             alunoResult.SetResultValidation(false);
-            Assert.NotNull(alunoResult);           
+            Assert.NotNull(alunoResult);
 
         }
 
@@ -51,12 +45,14 @@ namespace AppExEscola01.Tests.Application
             Mock<IAlunoAppService> mockAlunoService = new Mock<IAlunoAppService>();
             mockAlunoService.Setup(m => m.Create(alunoCreateViewModel)).Returns(aluno);
 
-            AlunoAppService alunoAppService = new AlunoAppService(mockAlunoService.Object);
+            AlunoAppService alunoAppService = new AlunoAppService();
+            alunoAppService.setIAlunoAppService(mockAlunoService.Object);
+
             var s = alunoAppService.Create(alunoCreateViewModel);
 
-            Assert.Equal(aluno, s);
-
-
+            Assert.NotNull(s);
+            Assert.IsType<AlunoResultViewModel>(s);
+            Assert.Equal(s, aluno);
 
 
         }

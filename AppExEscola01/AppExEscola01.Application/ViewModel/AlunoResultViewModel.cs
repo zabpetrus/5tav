@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppExEscola01.Application.ViewModel
 {
@@ -11,7 +8,7 @@ namespace AppExEscola01.Application.ViewModel
     {
 
         public AlunoResultViewModel() { }
-      
+
         public AlunoResultViewModel(int id, string matricula, AlunoCreateViewModel alunocreateViewModel)
         {
             Id = id;
@@ -19,7 +16,15 @@ namespace AppExEscola01.Application.ViewModel
             Set_alunocreateViewModel(alunocreateViewModel);
         }
 
-        public AlunoResultViewModel(int id, string nome, string matricula, string email, string cpf, string cep, string dataNascimento)
+        public AlunoResultViewModel(
+            int id, 
+            string nome, 
+            string matricula, 
+            string email, 
+            string cpf, 
+            string cep, 
+            string dataNascimento
+            )
         {
             Id = id;
             Nome = nome;
@@ -27,28 +32,28 @@ namespace AppExEscola01.Application.ViewModel
             Email = email;
             Cpf = cpf;
             Cep = cep;
-            DataNascimento = dataNascimento;            
+            DataNascimento = dataNascimento;
         }
 
-        private int Id  { get; set; }
+        private int Id { get; set; }
 
         private string Nome { get; set; }
-        
-        private string Matricula  { get; set; }
+
+        private string Matricula { get; set; }
 
         private string Cpf { get; set; }
 
         private string Cep { get; set; }
-       
-        private string DataNascimento {  get; set; } 
-        
+
+        private string DataNascimento { get; set; }
+
         private string Email { get; set; }
 
         private bool ResultValidation { get; set; }
 
 
         private AlunoCreateViewModel _alunocreateViewModel1;
-             
+
 
 
         //Getters
@@ -143,6 +148,35 @@ namespace AppExEscola01.Application.ViewModel
         public void Set_alunocreateViewModel(AlunoCreateViewModel value)
         {
             _alunocreateViewModel1 = value;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is AlunoResultViewModel model &&
+                   Id == model.Id &&
+                   Nome == model.Nome &&
+                   Matricula == model.Matricula &&
+                   Cpf == model.Cpf &&
+                   Cep == model.Cep &&
+                   DataNascimento == model.DataNascimento &&
+                   Email == model.Email &&
+                   ResultValidation == model.ResultValidation &&
+                   EqualityComparer<AlunoCreateViewModel>.Default.Equals(_alunocreateViewModel1, model._alunocreateViewModel1);
+        }
+
+        public override int GetHashCode()
+        {
+            HashCode hash = new HashCode();
+            hash.Add(Id);
+            hash.Add(Nome);
+            hash.Add(Matricula);
+            hash.Add(Cpf);
+            hash.Add(Cep);
+            hash.Add(DataNascimento);
+            hash.Add(Email);
+            hash.Add(ResultValidation);
+            hash.Add(_alunocreateViewModel1);
+            return hash.ToHashCode();
         }
 
 

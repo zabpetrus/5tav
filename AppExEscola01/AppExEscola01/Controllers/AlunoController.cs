@@ -35,7 +35,7 @@ namespace AppExEscola01.Api.Controllers
             //Recebido da Tela
             //Criação da entidade AlunoMatriculado receberá um aluno pré-matriculado
             AlunoAppService alunoAppService = new AlunoAppService();
-            if(alunoCreateViewModel != null)
+            if (alunoCreateViewModel != null)
             {
                 var alunoVM = alunoAppService.Create(alunoCreateViewModel);
             }

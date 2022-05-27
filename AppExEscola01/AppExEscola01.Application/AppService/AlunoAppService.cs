@@ -1,4 +1,4 @@
-ï»¿using AppExEscola01.Application.Interfaces;
+using AppExEscola01.Application.Interfaces;
 using AppExEscola01.Application.ViewModel;
 using AppExEscola01.Domain.Entities;
 using System;
@@ -6,66 +6,53 @@ using System.Collections.Generic;
 
 namespace AppExEscola01.Application.AppService
 {
-
-    //Antes implementava a interface IAlunoService
-    //Agora passou  a ser a interface IAlunoAppService
     public class AlunoAppService : IAlunoAppService
     {
-        private IAlunoAppService _alunoAppService;
-        //private IAlunoService _alunoService;
+        private IAlunoAppService _appService { get; set; }  //propriedade necessária
 
+        public AlunoAppService() { }
+        
+        //No momento da injeção tem que tirar esse construtor. Caso contrário, dá erro de Agregação.
+        //public AlunoAppService(IAlunoAppService appService) { _appService = appService; }
+                       
 
-        public AlunoAppService(){ }
-
-        // VersÃ£o anterior - foi oficialmente anulada nÃ£o sei porque
-        // public AlunoAppService(IAlunoService alunoService) {  _alunoService = alunoService;  }
-        public AlunoAppService(IAlunoAppService alunoAppService) { this._alunoAppService = alunoAppService; }
-
-
-        public AlunoResultViewModel Create(AlunoCreateViewModel alunoCreateViewModel)
+        public AlunoResultViewModel Create(AlunoCreateViewModel alunocreateviewmodel)
         {
             Aluno aluno = new Aluno();
-            aluno.setNome("sdsad");
-            aluno.setCPF("88775228017");
-            aluno.setCEP("23658-888");
-            aluno.setEmail("ghjhgjhgj@asdad.com");
-            aluno.setNascimento("2/2/222");
+            aluno.setNome(alunocreateviewmodel.GetNome());
+            aluno.setCPF(alunocreateviewmodel.GetCpf());
+            aluno.setCEP(alunocreateviewmodel.GetCep());
+            aluno.setEmail(alunocreateviewmodel.GetEmail());
+            aluno.setNascimento(alunocreateviewmodel.GetDataNascimento());
             aluno.CriaMatricula();
 
-            var retorno = _alunoAppService.CreateAluno(aluno); //validaÃ§Ã£o com booleano
-            if (retorno == true)
+            var retorno = CreateAluno(aluno);
+            if (retorno)
             {
-                throw new Exception("Outro caso!");
+                 AlunoResultViewModel result = new AlunoResultViewModel(
+                    1, //int id,
+                    aluno.getNome(), //string nome,
+                    aluno.getMatricula(), //string matricula,
+                    aluno.getEmail(),//string email,
+                    aluno.getCpf(), //string cpf,
+                    aluno.getCep(), //string cep,
+                    aluno.getDataNascimento() //string dataNascimento
+                 );
+                 return result;
             }
-           
+            throw new Exception("aluno está nulo!");           
 
-
-            AlunoResultViewModel result = new AlunoResultViewModel(1, "20221123456", alunoCreateViewModel);
-            return result;                       
-
-
-            // return _alunoAppService.Create(alunoCreateViewModel);
-
-        }
-
-
-        public bool CreateAluno(AlunoCreateViewModel alunoCreateViewModel)
-        {
-            if (alunoCreateViewModel == null)
-            {
-                return false;
-            }
-            return true;
-            // return _alunoAppService.CreateAluno(alunoCreateViewModel);
+           // return _appService.Create(alunocreateviewmodel);
         }
 
         public bool CreateAluno(Aluno aluno)
         {
-            if(aluno == null) {
+            if (aluno == null){
                 return false;
             }
             return true;
-            //return _alunoAppService.CreateAluno(aluno);
+
+            //return _appService.CreateAluno(aluno);
         }
 
         public void Delete(Aluno aluno)
@@ -75,22 +62,33 @@ namespace AppExEscola01.Application.AppService
 
         public List<Aluno> GetAll()
         {
-            return _alunoAppService.GetAll();   
+            throw new NotImplementedException();
         }
 
         public AlunoResultViewModel GetById(int id)
         {
-            return _alunoAppService.GetById(id);
+            throw new NotImplementedException();
         }
 
         public Aluno GetByName(string name)
         {
-            return _alunoAppService.GetByName(name);
+            throw new NotImplementedException();
         }
 
         public void Update(Aluno aluno)
         {
             throw new NotImplementedException();
+        }
+
+        //Setter da propriedade para o mock tradicional funcionar
+        //Com IAlunoAppService já injetado em Program, se colocar no construtor, dá erro de Agregação, uma vez que ele já está carregado em memória
+        //Mas pro mock funcionar ele precisa estar no construtor...
+        public void setIAlunoAppService( IAlunoAppService alunoAppService )
+        {
+            if(_appService == null)
+            {
+                _appService = alunoAppService;
+            }            
         }
     }
 }

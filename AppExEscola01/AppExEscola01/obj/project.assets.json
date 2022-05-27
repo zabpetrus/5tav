@@ -161,7 +161,9 @@
           "AppExEscola01.Domain": "1.0.0",
           "AutoMapper": "11.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Newtonsoft.Json": "13.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Swashbuckle.AspNetCore": "6.3.1"
         },
         "compile": {
           "bin/placeholder/AppExEscola01.Application.dll": {}
@@ -176,7 +178,9 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Newtonsoft.Json": "13.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Swashbuckle.AspNetCore": "6.3.1"
         },
         "compile": {
           "bin/placeholder/AppExEscola01.Domain.dll": {}
@@ -193,7 +197,9 @@
           "AppExEscola01.Infra.Data": "1.0.0",
           "AutoMapper": "11.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Swashbuckle.AspNetCore": "6.3.1"
         },
         "compile": {
           "bin/placeholder/AppExEscola01.Infra.CrossCutting.DI.dll": {}
@@ -209,7 +215,9 @@
           "AppExEscola01.Application": "1.0.0",
           "AutoMapper": "11.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
-          "Newtonsoft.Json": "13.0.1"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Swashbuckle.AspNetCore": "6.3.1"
         },
         "compile": {
           "bin/placeholder/AppExEscola01.Infra.Data.dll": {}
@@ -578,6 +586,7 @@
       "AppExEscola01.Infra.CrossCutting.DI >= 1.0.0",
       "AutoMapper >= 11.0.1",
       "Microsoft.Extensions.Configuration.Abstractions >= 6.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "Newtonsoft.Json >= 13.0.1",
       "Swashbuckle.AspNetCore >= 6.3.1"
     ]
@@ -638,6 +647,10 @@
             "version": "[11.0.1, )"
           },
           "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
             "version": "[6.0.0, )"
           },

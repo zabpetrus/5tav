@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AppExEscola01.Domain.Entities
 {
@@ -23,7 +19,8 @@ namespace AppExEscola01.Domain.Entities
             Nome = nome;
         }
 
-        public Disciplina() {
+        public Disciplina()
+        {
             Random random = new Random();
             Id = random.Next(0, 1000000);
         }
@@ -55,7 +52,7 @@ namespace AppExEscola01.Domain.Entities
         {
             return Nome;
         }
-        
+
 
 
     }

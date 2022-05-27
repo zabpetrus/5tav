@@ -1,9 +1,4 @@
 ﻿using AppExEscola01.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace AppExEscola01.Tests.Domain
@@ -13,7 +8,7 @@ namespace AppExEscola01.Tests.Domain
         [Fact]
         public void TestDisciplinaObject1()
         {
-            Disciplina disciplina = new Disciplina();            
+            Disciplina disciplina = new Disciplina();
             disciplina.setCodigoNumerico(5715);
             disciplina.setNome("Avaliação da Fertilidade do Solo e do Estado Nutricional das Plantas");
             Assert.NotNull(disciplina);
