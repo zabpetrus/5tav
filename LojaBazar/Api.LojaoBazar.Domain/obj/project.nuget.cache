@@ -1,15 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0FMDoW1IhNyEw+k2nEDtlYFbKFt1iDxKHhtfeVjJQN9fkLhDYbBpAd2JP+IPqmekwq1DFpNcuHlqzYfJBSNf8w==",
+  "dgSpecHash": "MF/j1QEPPcvvXRYU3Il8e+FM2jSo7795N0YNIK2I1xXWdGqmFbC95A20GuwTDmieGEsEAl79vN/pKpzebi+2Rw==",
   "success": true,
   "projectFilePath": "D:\\vstudio\\LojaBazar\\Api.LojaoBazar.Domain\\Api.LojaoBazar.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsant\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
-    "C:\\Users\\zsant\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
-    "C:\\Users\\zsant\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\zsant\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\zsant\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\zsant\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }

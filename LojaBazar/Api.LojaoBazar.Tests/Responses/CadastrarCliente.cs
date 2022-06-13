@@ -3,10 +3,6 @@ using Api.LojaoBazar.Application.Interfaces;
 using Api.LojaoBazar.Application.ViewModel;
 using Moq;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Api.LojaoBazar.Tests.Responses
@@ -19,7 +15,7 @@ namespace Api.LojaoBazar.Tests.Responses
             ClienteResultViewModel clienteResultViewModel = new ClienteResultViewModel();
             clienteResultViewModel.Id = 4;
             clienteResultViewModel.nome = "Maria";
-            clienteResultViewModel.datanascimento = new DateTime(1941,11,10);
+            clienteResultViewModel.datanascimento = new DateTime(1941, 11, 10);
 
             ClienteCreateViewModel clienteCreateViewModel = new ClienteCreateViewModel();
             clienteCreateViewModel.nome = "Paulo";

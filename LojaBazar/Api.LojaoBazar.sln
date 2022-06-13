@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar", "Api.LojaoBazar\Api.LojaoBazar.csproj", "{0A6F8972-5D82-4AA9-8BA3-C5C94211D333}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.LojaoBazar", "Api.LojaoBazar\Api.LojaoBazar.csproj", "{0A6F8972-5D82-4AA9-8BA3-C5C94211D333}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar.Application", "Api.LojaoBazar.Application\Api.LojaoBazar.Application.csproj", "{2A09A4F4-3913-44F4-89E2-26B2C149797B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.LojaoBazar.Application", "Api.LojaoBazar.Application\Api.LojaoBazar.Application.csproj", "{2A09A4F4-3913-44F4-89E2-26B2C149797B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar.Domain", "Api.LojaoBazar.Domain\Api.LojaoBazar.Domain.csproj", "{7ACD08A8-6337-4C06-A4ED-912B2DA6AA99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.LojaoBazar.Domain", "Api.LojaoBazar.Domain\Api.LojaoBazar.Domain.csproj", "{7ACD08A8-6337-4C06-A4ED-912B2DA6AA99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar.Infra.Data", "Api.LojaoBazar.Infra.Data\Api.LojaoBazar.Infra.Data.csproj", "{414956D0-23BA-4132-ACE6-6A71C7D3FDB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.LojaoBazar.Infra.Data", "Api.LojaoBazar.Infra.Data\Api.LojaoBazar.Infra.Data.csproj", "{414956D0-23BA-4132-ACE6-6A71C7D3FDB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar.Infra.Http", "Api.LojaoBazar.Infra.Http\Api.LojaoBazar.Infra.Http.csproj", "{2B85BA66-96D0-4306-8F25-0A6C86342DD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.LojaoBazar.Infra.Http", "Api.LojaoBazar.Infra.Http\Api.LojaoBazar.Infra.Http.csproj", "{2B85BA66-96D0-4306-8F25-0A6C86342DD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar.Tests", "Api.LojaoBazar.Tests\Api.LojaoBazar.Tests.csproj", "{C6A023AD-45E6-4D48-9247-873AA8EADF73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api.LojaoBazar.Tests", "Api.LojaoBazar.Tests\Api.LojaoBazar.Tests.csproj", "{C6A023AD-45E6-4D48-9247-873AA8EADF73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.LojaoBazar.Infra.CrossCutting.DI", "Api.LojaoBazar.Infra.CrossCutting.DI\Api.LojaoBazar.Infra.CrossCutting.DI.csproj", "{5D7E99D9-C39A-4203-B5B6-1AED3BF9B592}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{C6A023AD-45E6-4D48-9247-873AA8EADF73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6A023AD-45E6-4D48-9247-873AA8EADF73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6A023AD-45E6-4D48-9247-873AA8EADF73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D7E99D9-C39A-4203-B5B6-1AED3BF9B592}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D7E99D9-C39A-4203-B5B6-1AED3BF9B592}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D7E99D9-C39A-4203-B5B6-1AED3BF9B592}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D7E99D9-C39A-4203-B5B6-1AED3BF9B592}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

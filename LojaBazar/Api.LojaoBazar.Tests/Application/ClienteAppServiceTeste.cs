@@ -4,10 +4,6 @@ using Api.LojaoBazar.Application.ViewModel;
 using Api.LojaoBazar.Domain.Entities;
 using Moq;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Api.LojaoBazar.Tests.Application
@@ -19,7 +15,7 @@ namespace Api.LojaoBazar.Tests.Application
         {
 
             Endereco endereco = new Endereco();
-           // endereco.setClienteID(null);
+            // endereco.setClienteID(null);
             endereco.setRua("Rua Camargo Dias");
             endereco.setNumero(1235);
             endereco.setComplemento("casa");
@@ -30,7 +26,7 @@ namespace Api.LojaoBazar.Tests.Application
             clienteCreateViewModel.endereco = endereco;
             clienteCreateViewModel.datanascimento = new DateTime(2015, 12, 25);
             clienteCreateViewModel.cpf = "256.875.469-87";
-        
+
 
             ClienteResultViewModel clienteResultViewModel = new ClienteResultViewModel();
             clienteResultViewModel.Id = 1;

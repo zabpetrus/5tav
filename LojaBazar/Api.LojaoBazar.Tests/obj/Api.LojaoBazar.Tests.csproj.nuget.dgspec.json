@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[11.0.1, )"
             },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
@@ -123,10 +119,6 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -202,10 +194,6 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[11.0.1, )"
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[6.0.0, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",

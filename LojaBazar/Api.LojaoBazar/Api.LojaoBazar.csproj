@@ -6,13 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="11.0.1" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Api.LojaoBazar.Application\Api.LojaoBazar.Application.csproj" />
+    <ProjectReference Include="..\Api.LojaoBazar.Infra.CrossCutting.DI\Api.LojaoBazar.Infra.CrossCutting.DI.csproj" />
   </ItemGroup>
 
 </Project>

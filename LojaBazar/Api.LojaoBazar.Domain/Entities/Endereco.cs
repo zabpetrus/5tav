@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Api.LojaoBazar.Domain.Entities
+﻿namespace Api.LojaoBazar.Domain.Entities
 {
     public class Endereco
     {
@@ -21,7 +15,7 @@ namespace Api.LojaoBazar.Domain.Entities
 
 
 
-        public void setClienteID(int clienteID )
+        public void setClienteID(int clienteID)
         {
             _Cliente = clienteID;
         }
@@ -41,12 +35,12 @@ namespace Api.LojaoBazar.Domain.Entities
             Complemento = v;
         }
 
-       
+
         public void setCep(string v)
         {
             Cep = v;
         }
 
-       
+
     }
 }

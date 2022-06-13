@@ -2,10 +2,6 @@
 using Api.LojaoBazar.Domain.Interfaces;
 using Moq;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Api.LojaoBazar.Tests.Responses
@@ -20,7 +16,7 @@ namespace Api.LojaoBazar.Tests.Responses
             Carrinho carrinho = new Carrinho();
             carrinho.setID(5);
             carrinho.setDataCompra(DateTime.Now);
-          
+
 
             Produto produto1 = new Produto();
             produto1.setNome("Notebook Acer Aspire 3 Intel Core");
@@ -50,16 +46,16 @@ namespace Api.LojaoBazar.Tests.Responses
 
             ItensCarrinho item1 = new ItensCarrinho();
             item1.setID(1); //gerado automaticamente 
-            item1.setNomeProduto( produto1.getNome() );
-            item1.setPreco( produto1.getPreco() );
-            item1.setProdutoID( produto1.getId() );
+            item1.setNomeProduto(produto1.getNome());
+            item1.setPreco(produto1.getPreco());
+            item1.setProdutoID(produto1.getId());
             item1.setCarrinhoID(5); //ID do objeto carrinho
 
             ItensCarrinho item2 = new ItensCarrinho();
             item2.setID(2);//gerado automaticamente 
-            item2.setNomeProduto( produto2.getNome() );
-            item2.setPreco( produto2.getPreco() );
-            item2.setProdutoID( produto2.getId() );
+            item2.setNomeProduto(produto2.getNome());
+            item2.setPreco(produto2.getPreco());
+            item2.setProdutoID(produto2.getId());
             item2.setCarrinhoID(5); //ID do objeto carrinho
 
             carrinho.setFrete(resFrete);

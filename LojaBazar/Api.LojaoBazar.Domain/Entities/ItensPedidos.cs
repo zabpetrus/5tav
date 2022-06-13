@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Api.LojaoBazar.Domain.Entities
+﻿namespace Api.LojaoBazar.Domain.Entities
 {
     public class ItensPedidos
     {
@@ -24,7 +18,7 @@ namespace Api.LojaoBazar.Domain.Entities
 
         public void setIdProduto(int v)
         {
-            IdProduto = v;   
+            IdProduto = v;
         }
 
         public void setQuantidade(int v)
@@ -42,11 +36,11 @@ namespace Api.LojaoBazar.Domain.Entities
 
         public int getId() { return Id; }
 
-        public int getIdProduto() { return IdProduto; } 
+        public int getIdProduto() { return IdProduto; }
 
-        public int getQuantidade() { return Quantidade; }   
+        public int getQuantidade() { return Quantidade; }
 
-        public double getPreco() { return Preco; }  
+        public double getPreco() { return Preco; }
 
 
     }

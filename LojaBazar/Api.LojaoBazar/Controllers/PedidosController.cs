@@ -24,8 +24,8 @@ namespace Api.LojaoBazar.Controllers
         {
             //Retorna um pedido especifico
             PedidoAppService pedidoAppService = new PedidoAppService();
-            PedidoResultViewModel pedidoResultViewModel  = pedidoAppService.GetById(id);
-           return pedidoResultViewModel.ToString();
+            PedidoResultViewModel pedidoResultViewModel = pedidoAppService.GetById(id);
+            return pedidoResultViewModel.ToString();
         }
 
         // POST api/<PedidosController>
@@ -34,7 +34,7 @@ namespace Api.LojaoBazar.Controllers
         {
             //Criação de um novo pedido
             PedidoAppService pedidoAppService = new PedidoAppService();
-            pedidoAppService.Create(pedidoCreateViewModel);           
+            pedidoAppService.Create(pedidoCreateViewModel);
         }
 
         // PUT api/<PedidosController>/5

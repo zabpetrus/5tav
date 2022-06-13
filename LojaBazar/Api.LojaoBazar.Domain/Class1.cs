@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Api.LojaoBazar.Domain
+﻿namespace Api.LojaoBazar.Domain
 {
     public class Class1
     {

@@ -1,10 +1,5 @@
 ﻿using Api.LojaoBazar.Application.Interfaces;
 using Api.LojaoBazar.Application.ViewModel;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Api.LojaoBazar.Application.AppService
 {
@@ -22,8 +17,8 @@ namespace Api.LojaoBazar.Application.AppService
 
         public void Create(PedidoCreateViewModel pedidoCreateViewModel)
         {
-           _pedidoAppService.Create(pedidoCreateViewModel);
-            
+            _pedidoAppService.Create(pedidoCreateViewModel);
+
         }
 
         public PedidoResultViewModel CreatePedido(PedidoCreateViewModel pedidoCreateViewModel)
@@ -33,7 +28,7 @@ namespace Api.LojaoBazar.Application.AppService
 
         public PedidoResultViewModel GetById(int id)
         {
-            return _pedidoAppService.GetById(id);   
+            return _pedidoAppService.GetById(id);
         }
     }
 }

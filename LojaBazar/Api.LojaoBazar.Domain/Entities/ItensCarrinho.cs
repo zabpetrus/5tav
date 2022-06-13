@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Api.LojaoBazar.Domain.Entities
 {
@@ -63,11 +58,11 @@ namespace Api.LojaoBazar.Domain.Entities
 
         public int getQuantidade() { return Quantidade; }
 
-        public double getPreco() { return Preco; }  
+        public double getPreco() { return Preco; }
 
-        public string getNomeProduto() { return NomeProduto; }  
+        public string getNomeProduto() { return NomeProduto; }
 
-        public int getCarrinhoID() { return CarrinhoID; }   
+        public int getCarrinhoID() { return CarrinhoID; }
 
 
 
@@ -79,11 +74,11 @@ namespace Api.LojaoBazar.Domain.Entities
 
         public ItensCarrinho GetById() { return null; }
 
-        public List<ItensCarrinho> GetAll() { return null;  }
+        public List<ItensCarrinho> GetAll() { return null; }
 
         public double SimularFrete() { return 0.0; }
 
-       
-        public ItensCarrinho()  {  }
+
+        public ItensCarrinho() { }
     }
 }

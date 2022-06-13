@@ -1,9 +1,4 @@
 ﻿using Api.LojaoBazar.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Api.LojaoBazar.Domain.Entities
 {
@@ -23,23 +18,23 @@ namespace Api.LojaoBazar.Domain.Entities
         public Pagamento() { }
 
         public Pagamento(IPagamentoService pagamentoService)
-        {          
+        {
             _pagamentoService = pagamentoService;
         }
 
         //Setters
 
-        public void setValor(double v){ Valor = v; }
+        public void setValor(double v) { Valor = v; }
 
-        public void setClienteID(int _clienteID){ clienteID = _clienteID; }
+        public void setClienteID(int _clienteID) { clienteID = _clienteID; }
 
-        public void setFormaPagamento(char v){ FormaPagamento = v;  }
+        public void setFormaPagamento(char v) { FormaPagamento = v; }
 
         //Getters
 
-        public int getClienteID(){ return clienteID; }
+        public int getClienteID() { return clienteID; }
 
-        public double getValor(){ return Valor; }
+        public double getValor() { return Valor; }
 
         public char getFormaPagamento() { return FormaPagamento; }
 

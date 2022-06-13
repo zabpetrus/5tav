@@ -1,11 +1,6 @@
 ﻿using Api.LojaoBazar.Domain.Entities;
 using Api.LojaoBazar.Domain.Interfaces;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Api.LojaoBazar.Tests.Domain.Entities
@@ -21,7 +16,7 @@ namespace Api.LojaoBazar.Tests.Domain.Entities
             pedidos.setIdCliente(1);
             pedidos.setIdEntrega(1);
             pedidos.setValorTotal(2.5d);
-           
+
             Assert.NotNull(pedidos);
 
         }

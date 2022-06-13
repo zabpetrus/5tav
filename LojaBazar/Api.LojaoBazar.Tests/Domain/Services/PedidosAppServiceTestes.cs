@@ -3,11 +3,6 @@ using Api.LojaoBazar.Application.Interfaces;
 using Api.LojaoBazar.Application.ViewModel;
 using Api.LojaoBazar.Domain.Entities;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xunit;
 
 namespace Api.LojaoBazar.Tests.Domain.Services
@@ -16,7 +11,7 @@ namespace Api.LojaoBazar.Tests.Domain.Services
     {
         [Fact]
         public void PedidoResultTest1()
-        {     
+        {
 
             PedidoResultViewModel pedidoResultViewModel = new PedidoResultViewModel();
             pedidoResultViewModel.setIDCliente(1);
@@ -32,14 +27,14 @@ namespace Api.LojaoBazar.Tests.Domain.Services
 
 
             Mock<IPedidoAppService> mockAppService = new Mock<IPedidoAppService>();
-            mockAppService.Setup(m => m.CreatePedido(pedidoCreateViewModel)).Returns(pedidoResultViewModel);    
+            mockAppService.Setup(m => m.CreatePedido(pedidoCreateViewModel)).Returns(pedidoResultViewModel);
 
             PedidoAppService pedidoAppService = new PedidoAppService(mockAppService.Object);
             var result = pedidoAppService.CreatePedido(pedidoCreateViewModel);
 
             Assert.NotNull(result);
             Assert.Equal(pedidoResultViewModel, result);
-           
+
         }
 
         [Fact]
@@ -60,20 +55,20 @@ namespace Api.LojaoBazar.Tests.Domain.Services
             pedido.setId(1);
             pedido.setIdEntrega(1);
             pedido.setIdCliente(1);
-            pedido.setValorTotal( 2.6d ); 
+            pedido.setValorTotal(2.6d);
 
 
             PedidoResultViewModel pedidoResultViewModel = new PedidoResultViewModel();
-            pedidoResultViewModel.setIDCliente( cliente.getID() );
-            pedidoResultViewModel.setIDEntrega( entrega.getId() );
-            pedidoResultViewModel.setValorTotal( pedido.getValorTotal());
+            pedidoResultViewModel.setIDCliente(cliente.getID());
+            pedidoResultViewModel.setIDEntrega(entrega.getId());
+            pedidoResultViewModel.setValorTotal(pedido.getValorTotal());
             pedidoResultViewModel.setID(1);
 
 
             PedidoCreateViewModel pedidoCreateViewModel = new PedidoCreateViewModel();
-            pedidoCreateViewModel.setIDCliente( cliente.getID());
-            pedidoCreateViewModel.setIDEntrega( entrega.getId() );
-            pedidoCreateViewModel.setValorTotal( pedido.getValorTotal() );
+            pedidoCreateViewModel.setIDCliente(cliente.getID());
+            pedidoCreateViewModel.setIDEntrega(entrega.getId());
+            pedidoCreateViewModel.setValorTotal(pedido.getValorTotal());
 
 
             Mock<IPedidoAppService> mockAppService = new Mock<IPedidoAppService>();

@@ -1,9 +1,4 @@
 ﻿using Api.LojaoBazar.Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Api.LojaoBazar.Domain.Entities
 {
@@ -11,28 +6,28 @@ namespace Api.LojaoBazar.Domain.Entities
     {
         private int Id { get; set; }
 
-        private int IdCliente { get; set; } 
+        private int IdCliente { get; set; }
 
-        private double ValorTotal { get;set; }
+        private double ValorTotal { get; set; }
 
         private int IdEntrega { get; set; }
 
 
         private IPedidosService _pedidosService;
 
-       
+
         //Setters
-        public void setId(int id ) { this.Id = id; }    
+        public void setId(int id) { this.Id = id; }
 
-        public void setIdCliente( int idCliente) { this.IdCliente = idCliente;  }
-        
-        public void setValorTotal( double valorTotal ) { this.ValorTotal = valorTotal; }       
+        public void setIdCliente(int idCliente) { this.IdCliente = idCliente; }
 
-        public void setIdEntrega( int idEntrega ) { this.IdEntrega = idEntrega; }
+        public void setValorTotal(double valorTotal) { this.ValorTotal = valorTotal; }
+
+        public void setIdEntrega(int idEntrega) { this.IdEntrega = idEntrega; }
 
 
         //Getters
-        public int getId() { return this.Id; }  
+        public int getId() { return this.Id; }
 
         public int getIdCliente() { return this.IdCliente; }
 
@@ -80,12 +75,12 @@ namespace Api.LojaoBazar.Domain.Entities
         public double CalcularValorTotalFrete()
         {
             return _pedidosService.CalcularValorTotalFrete();
-            
+
         }
 
         public void GetAll()
         {
-             _pedidosService.GetAll();
+            _pedidosService.GetAll();
         }
 
 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Api.LojaoBazar.Domain.Entities
+﻿namespace Api.LojaoBazar.Domain.Entities
 {
     public class Cliente
     {
@@ -16,7 +10,7 @@ namespace Api.LojaoBazar.Domain.Entities
 
         private string Cpf { get; set; }
 
-        private bool Status { get; set; }         
+        private bool Status { get; set; }
 
         private string Senha { get; set; }
 
@@ -34,7 +28,7 @@ namespace Api.LojaoBazar.Domain.Entities
         public void setStatus(bool v)
         {
             Status = v;
-        }        
+        }
 
         public void setSenha(string v)
         {
@@ -70,7 +64,7 @@ namespace Api.LojaoBazar.Domain.Entities
 
         public string getSenha()
         {
-           return Senha;
+            return Senha;
         }
 
         public string getCpf()

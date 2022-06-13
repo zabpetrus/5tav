@@ -1,0 +1,17 @@
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.deps.json
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.dll
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.pdb
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.csproj.AssemblyReference.cache
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.AssemblyInfoInputs.cache
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.AssemblyInfo.cs
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.csproj.CoreCompileInputs.cache
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.dll
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\refint\Api.LojaoBazar.Infra.CrossCutting.DI.dll
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.pdb
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\ref\Api.LojaoBazar.Infra.CrossCutting.DI.dll
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Application.dll
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Domain.dll
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Application.pdb
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\bin\Debug\net5.0\Api.LojaoBazar.Domain.pdb
+D:\vstudio\LojaBazar\Api.LojaoBazar.Infra.CrossCutting.DI\obj\Debug\net5.0\Api.LojaoBazar.Infra.CrossCutting.DI.csproj.CopyComplete

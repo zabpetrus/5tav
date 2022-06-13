@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Api.LojaoBazar.Application.ViewModel
+﻿namespace Api.LojaoBazar.Application.ViewModel
 {
     public class PedidoCreateViewModel
     {
@@ -18,11 +12,11 @@ namespace Api.LojaoBazar.Application.ViewModel
 
         //Setters
 
-        public void setIDCliente( int idCliente) { IdCliente = idCliente; }
+        public void setIDCliente(int idCliente) { IdCliente = idCliente; }
 
-        public void setValorTotal( double valorTotal ) { ValorTotal = valorTotal; }
+        public void setValorTotal(double valorTotal) { ValorTotal = valorTotal; }
 
-        public void setIDEntrega( int idEntrega ) { IdEntrega = idEntrega; }
+        public void setIDEntrega(int idEntrega) { IdEntrega = idEntrega; }
 
         //Getters
 
@@ -30,7 +24,7 @@ namespace Api.LojaoBazar.Application.ViewModel
 
         public double getValorTotal() { return ValorTotal; }
 
-        public int getIDCliente() { return IdCliente; } 
+        public int getIDCliente() { return IdCliente; }
 
 
     }

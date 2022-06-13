@@ -1,6 +1,5 @@
 ﻿using Api.LojaoBazar.Application.AppService;
 using Api.LojaoBazar.Application.ViewModel;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -42,10 +41,10 @@ namespace Api.LojaoBazar.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] ClienteResultViewModel clienteResultViewModel)
         {
-            ClienteAppService clienteAppService=new ClienteAppService();
+            ClienteAppService clienteAppService = new ClienteAppService();
             bool response = clienteAppService.Put(id, clienteResultViewModel);
-            if (response) { Console.WriteLine("Success"); } else { Console.WriteLine("Error");  }
-           
+            if (response) { Console.WriteLine("Success"); } else { Console.WriteLine("Error"); }
+
 
         }
 
@@ -54,7 +53,7 @@ namespace Api.LojaoBazar.Controllers
         public void Delete(int id)
         {
             ClienteAppService clienteAppService = new ClienteAppService();
-            bool response  = clienteAppService.Delete(id);
+            bool response = clienteAppService.Delete(id);
             if (response) { Console.WriteLine("Success"); } else { Console.WriteLine("Error"); }
 
         }
