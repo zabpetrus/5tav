@@ -30,6 +30,14 @@ namespace Api.LojaoBazar.Application.AppService
             return _clienteAppService.Get(id);
         }
 
+        public bool Put(int id, ClienteResultViewModel clienteResultViewModel)
+        {
+            return _clienteAppService.Put(id, clienteResultViewModel);
+        }
 
+        public bool Delete(int id)
+        {
+            return (_clienteAppService.Delete(id));
+        }
     }
 }

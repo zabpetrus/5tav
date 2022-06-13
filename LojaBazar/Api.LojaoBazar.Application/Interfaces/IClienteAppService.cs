@@ -13,6 +13,13 @@ namespace Api.LojaoBazar.Application.Interfaces
 
         public ClienteResultViewModel Get(int id);
 
+        public bool Put(int id, ClienteResultViewModel clienteResultViewModel);
+
+        public bool Delete(int id);
+
+
+
+
 
     }
 }

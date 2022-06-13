@@ -20,6 +20,7 @@ namespace Api.LojaoBazar.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            //Listar uma determinada entrega
             return "value";
         }
 
