@@ -1,0 +1,15 @@
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\bin\Debug\net5.0\HotelMaryApp.Application.deps.json
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\bin\Debug\net5.0\HotelMaryApp.Application.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\bin\Debug\net5.0\HotelMaryApp.Application.pdb
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\bin\Debug\net5.0\HotelMaryApp.Domain.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\bin\Debug\net5.0\HotelMaryApp.Domain.pdb
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.csproj.AssemblyReference.cache
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.AssemblyInfoInputs.cache
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.AssemblyInfo.cs
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.csproj.CoreCompileInputs.cache
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.csproj.CopyComplete
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\refint\HotelMaryApp.Application.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\HotelMaryApp.Application.pdb
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Application\obj\Debug\net5.0\ref\HotelMaryApp.Application.dll

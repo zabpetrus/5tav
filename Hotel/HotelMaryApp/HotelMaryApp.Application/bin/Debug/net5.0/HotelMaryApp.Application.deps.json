@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HotelMaryApp.Application/1.0.0": {
+        "dependencies": {
+          "HotelMaryApp.Domain": "1.0.0"
+        },
+        "runtime": {
+          "HotelMaryApp.Application.dll": {}
+        }
+      },
+      "HotelMaryApp.Domain/1.0.0": {
+        "runtime": {
+          "HotelMaryApp.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HotelMaryApp.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HotelMaryApp.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

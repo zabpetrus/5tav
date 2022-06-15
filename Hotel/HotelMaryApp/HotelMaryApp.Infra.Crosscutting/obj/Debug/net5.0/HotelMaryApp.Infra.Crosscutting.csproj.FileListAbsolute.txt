@@ -1,0 +1,12 @@
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\bin\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.deps.json
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\bin\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\bin\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.pdb
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.csproj.AssemblyReference.cache
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.AssemblyInfoInputs.cache
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.AssemblyInfo.cs
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.csproj.CoreCompileInputs.cache
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\refint\HotelMaryApp.Infra.Crosscutting.dll
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\HotelMaryApp.Infra.Crosscutting.pdb
+D:\vstudio\Hotel\HotelMaryApp\HotelMaryApp.Infra.Crosscutting\obj\Debug\net5.0\ref\HotelMaryApp.Infra.Crosscutting.dll
