@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj": {}
+    "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj": {}
   },
   "projects": {
-    "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj": {
+    "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj",
+        "projectUniqueName": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj",
         "projectName": "HotelJuanApp.Application",
-        "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj",
+        "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj",
         "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-        "outputPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\obj\\",
+        "outputPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj": {
-                "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj"
+              "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj": {
+                "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj"
               }
             }
           }
@@ -68,18 +68,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj": {
+    "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj",
+        "projectUniqueName": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj",
         "projectName": "HotelJuanApp.Domain",
-        "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj",
+        "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Domain\\HotelJuanApp.Domain.csproj",
         "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-        "outputPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Domain\\obj\\",
+        "outputPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -132,18 +132,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj": {
+    "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj",
+        "projectUniqueName": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj",
         "projectName": "HotelJuanApp.Tests",
-        "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj",
+        "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Tests\\HotelJuanApp.Tests.csproj",
         "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-        "outputPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Tests\\obj\\",
+        "outputPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,8 +164,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj": {
-                "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj"
+              "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj": {
+                "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj"
               }
             }
           }
@@ -224,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

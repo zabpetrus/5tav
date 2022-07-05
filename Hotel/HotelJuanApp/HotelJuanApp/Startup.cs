@@ -1,21 +1,9 @@
-using HotelJuanApp.Application.AppService;
-using HotelJuanApp.Application.Interfaces;
-using HotelJuanApp.CrossCutting;
-using HotelJuanApp.Domain.Interfaces.Service;
-using HotelJuanApp.Domain.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace HotelJuanApp
 {
@@ -31,7 +19,6 @@ namespace HotelJuanApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            AutoMapping autoMapping = new AutoMapping();
             DependenceInjectionConf(services, Configuration);
             services.AddControllers();
             services.AddAutoMapper(typeof(Startup));
@@ -64,10 +51,10 @@ namespace HotelJuanApp
         }
 
 
-        private  void DependenceInjectionConf( IServiceCollection services, IConfiguration configuration )
+        private void DependenceInjectionConf(IServiceCollection services, IConfiguration configuration)
         {
-             services.AddScoped(typeof(IReservaService), typeof(ReservaService));
-             services.AddScoped(typeof(IReservaAppService), typeof(ReservaAppService));           
+            //services.AddScoped(typeof(IReservaService), typeof(ReservaService));
+            // services.AddSingleton<IReservaAppService, ReservaAppService>();             
 
         }
     }

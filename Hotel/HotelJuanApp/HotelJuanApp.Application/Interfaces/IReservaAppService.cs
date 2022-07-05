@@ -1,14 +1,21 @@
 ﻿using HotelJuanApp.Application.ViewModels;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelJuanApp.Application.Interfaces
 {
     public interface IReservaAppService
     {
-        List< QuartoViewModel > GetQuartosDisponiveis(ConsultaPeriodoViewModel consulta);
+        List<QuartoViewModel> GetQuartosDisponiveis(ConsultaPeriodoViewModel consulta);
+
+        List<QuartoViewModel> GetAll();
+
+        QuartoViewModel GetById(int id);
+
+        bool CreateReserva(QuartoViewModel quarto);
+
+        bool ExcluirReserva(int id);
+
+        bool AtualizarReserva(int id, QuartoViewModel quarto);
+
     }
 }

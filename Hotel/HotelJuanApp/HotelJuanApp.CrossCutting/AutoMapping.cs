@@ -1,5 +1,4 @@
-﻿using System;
-using AutoMapper;
+﻿using AutoMapper;
 using HotelJuanApp.Application.ViewModels;
 using HotelJuanApp.Domain.Entity;
 
@@ -10,7 +9,7 @@ namespace HotelJuanApp.CrossCutting
         public AutoMapping()
         {
             CreateMap<Quarto, QuartoViewModel>();
-            CreateMap<QuartoViewModel, Quarto>();     
-        }        
+            CreateMap<QuartoViewModel, Quarto>();
+        }
     }
 }

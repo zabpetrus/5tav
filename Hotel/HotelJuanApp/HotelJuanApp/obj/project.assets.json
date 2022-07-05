@@ -554,11 +554,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp\\HotelJuanApp.Api.csproj",
+      "projectUniqueName": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp\\HotelJuanApp.Api.csproj",
       "projectName": "HotelJuanApp.Api",
-      "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp\\HotelJuanApp.Api.csproj",
+      "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp\\HotelJuanApp.Api.csproj",
       "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-      "outputPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp\\obj\\",
+      "outputPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -579,11 +579,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj": {
-              "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj"
+            "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj": {
+              "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.Application\\HotelJuanApp.Application.csproj"
             },
-            "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.CrossCutting\\HotelJuanApp.CrossCutting.csproj": {
-              "projectPath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp.CrossCutting\\HotelJuanApp.CrossCutting.csproj"
+            "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.CrossCutting\\HotelJuanApp.CrossCutting.csproj": {
+              "projectPath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp.CrossCutting\\HotelJuanApp.CrossCutting.csproj"
             }
           }
         }
@@ -625,7 +625,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

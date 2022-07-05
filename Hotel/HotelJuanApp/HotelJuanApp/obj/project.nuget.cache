@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JUFIxcFmIXp9vygXaIMcf/b0Kzscqns+iKVKJ2IwawN+26KQjIaVY50PaelHjpWThqD8IBsIv7ZJd1Enx8uUOA==",
+  "dgSpecHash": "r01Bq8ly4sLyN2JVKYXAQVWtH4BOb+m9beA03AjsNSsUUQ0qnobDdNXuO1VbwePFZU5To4M2OT8UkHDOyQsY2A==",
   "success": true,
-  "projectFilePath": "E:\\zabpetrus\\exerciciosCSharp\\HotelJuan\\v2\\HotelJuanApp\\HotelJuanApp\\HotelJuanApp.Api.csproj",
+  "projectFilePath": "D:\\vstudio\\Hotel\\HotelJuanApp\\HotelJuanApp\\HotelJuanApp.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsant\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

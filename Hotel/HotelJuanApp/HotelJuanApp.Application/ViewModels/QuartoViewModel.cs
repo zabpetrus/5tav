@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelJuanApp.Application.ViewModels
 {
@@ -24,6 +20,6 @@ namespace HotelJuanApp.Application.ViewModels
             ValorDiaria = valorDiaria;
         }
 
-        public QuartoViewModel(){ }
+        public QuartoViewModel() { }
     }
 }

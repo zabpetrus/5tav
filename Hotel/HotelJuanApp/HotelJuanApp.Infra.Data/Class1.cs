@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace HotelJuanApp.Infra.Data
+﻿namespace HotelJuanApp.Infra.Data
 {
     public class Class1
     {

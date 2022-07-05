@@ -9,3 +9,15 @@ E:\zabpetrus\exerciciosCSharp\HotelJuan\v2\HotelJuanApp\HotelJuanApp.Domain\obj\
 E:\zabpetrus\exerciciosCSharp\HotelJuan\v2\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.dll
 E:\zabpetrus\exerciciosCSharp\HotelJuan\v2\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\ref\HotelJuanApp.Domain.dll
 E:\zabpetrus\exerciciosCSharp\HotelJuan\v2\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.pdb
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\bin\Debug\net5.0\HotelJuanApp.Domain.deps.json
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\bin\Debug\net5.0\HotelJuanApp.Domain.dll
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\bin\Debug\net5.0\HotelJuanApp.Domain.pdb
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.csproj.AssemblyReference.cache
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.AssemblyInfoInputs.cache
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.AssemblyInfo.cs
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.csproj.CoreCompileInputs.cache
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.dll
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\refint\HotelJuanApp.Domain.dll
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\HotelJuanApp.Domain.pdb
+D:\vstudio\Hotel\HotelJuanApp\HotelJuanApp.Domain\obj\Debug\net5.0\ref\HotelJuanApp.Domain.dll

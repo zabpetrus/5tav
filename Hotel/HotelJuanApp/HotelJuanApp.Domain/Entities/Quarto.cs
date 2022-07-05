@@ -1,14 +1,11 @@
 ﻿using HotelJuanApp.Domain.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelJuanApp.Domain.Entity
 {
-    public class Quarto :  EntityDom, IAppServiceBase<Quarto>
-    {       
+    public class Quarto : EntityDom, IAppServiceBase<Quarto>
+    {
 
         public int Numero { get; set; }
 
@@ -24,9 +21,9 @@ namespace HotelJuanApp.Domain.Entity
             QtePessoas = qtePessoas;
             Classificacao = classificacao;
             ValorDiaria = valorDiaria;
-        }                  
-        
-        public Quarto(){}
+        }
+
+        public Quarto() { }
 
         public void Add(Quarto obj)
         {

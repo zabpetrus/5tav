@@ -1,14 +1,8 @@
 ﻿using AutoMapper;
 using HotelJuanApp.Application.Interfaces;
 using HotelJuanApp.Application.ViewModels;
-using HotelJuanApp.Domain.Entity;
 using HotelJuanApp.Domain.Interfaces.Service;
-using HotelJuanApp.Domain.Services;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HotelJuanApp.Application.AppService
 {
@@ -17,38 +11,42 @@ namespace HotelJuanApp.Application.AppService
 
         private IReservaService _reservaService;
 
-      //  private IReservaAppService _reservaAppService;
+        private IReservaAppService _reservaAppService;
 
         private readonly IMapper _mapper;
 
-        public ReservaAppService(){ }
+        public ReservaAppService() { }
 
-    
-        public ReservaAppService( IMapper mapper, IReservaService reservaService )
-        {             
-            _mapper = mapper;
-            _reservaService = reservaService;
-        } 
+        public ReservaAppService(IReservaAppService reservaAppService) { _reservaAppService = reservaAppService; }
 
         public List<QuartoViewModel> GetQuartosDisponiveis(ConsultaPeriodoViewModel consulta)
         {
-            ReservaService reservaService = new ReservaService();
-            List<Quarto> quartos = reservaService.GetQuartosDisponiveis(consulta.Checkin, consulta.Checkout, consulta.QtePessoas);
+            return _reservaAppService.GetQuartosDisponiveis(consulta);
+        }
 
-            //Input
-            //List<Quarto> quartos = _reservaService.GetQuartosDisponiveis(consulta.Checkin, consulta.Checkout, consulta.QtePessoas);
-            if(quartos == null) { throw new Exception("Lista de Quartos Vazia");  }
+        public List<QuartoViewModel> GetAll()
+        {
+            return _reservaAppService.GetAll();
+        }
 
-            //output
-            //Not Working!!!!
-            // List<QuartoViewModel> quartosvm = _mapper.Map<List<Quarto>, List<QuartoViewModel>>(quartos); //Source -> Quarto .: Destino  -> QuartoViewModel
+        public QuartoViewModel GetById(int id)
+        {
+            return _reservaAppService.GetById(id);
+        }
 
-            List<QuartoViewModel> quartosvm = new List<QuartoViewModel>();
-            if (quartosvm == null) { throw new Exception("Lista de QuartoViewModel Vazia"); }
+        public bool CreateReserva(QuartoViewModel quarto)
+        {
+            return _reservaAppService.CreateReserva(quarto);
+        }
 
+        public bool ExcluirReserva(int id)
+        {
+            return _reservaAppService.ExcluirReserva(id);
+        }
 
-            return quartosvm;
-
+        public bool AtualizarReserva(int id, QuartoViewModel quarto)
+        {
+            return _reservaAppService.AtualizarReserva(id, quarto);
         }
     }
 }
