@@ -8,9 +8,7 @@ namespace ViacaoCalango.Domain.Entities
 {
     public class Lugar
     {
-        public Lugar()
-        {
-        }
+        public Lugar(){}
 
         public int Numero { get; set; }
         public int OnibusId { get; set; }

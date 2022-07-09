@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZbDKrYMGejr06cdpXZ7HMyKIxOa+8X7AqsdHhHeVp0Zh6EyyMZOwv5Yydbl35HNxcLLF4t/iMMFS3YlxFHdvCQ==",
+  "dgSpecHash": "bS9IyC5UR/vw+HpiPrXxL+xMDPgISP/aYOHuR7JOkcafoDfikr8FTaAX1bcm6zf2vAbR4NKvaKDE8Jcm7cPpHA==",
   "success": true,
-  "projectFilePath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango\\ViacaoCalango.API.csproj",
+  "projectFilePath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango\\ViacaoCalango.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zsant\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\zsant\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

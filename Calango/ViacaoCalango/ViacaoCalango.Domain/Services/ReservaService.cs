@@ -5,26 +5,54 @@ using System.Text;
 using System.Threading.Tasks;
 using ViacaoCalango.Domain.Entities;
 using AutoMapper;
+using ViacaoCalango.Domain.Interfaces;
 
 namespace ViacaoCalango.Domain.Services
 {
-    public class ReservaService
+    public class ReservaService : IReservaService
     {
-        private IMapper _mapper;
+        private IReservaService _reservaService;
 
         public ReservaService(){}
 
-          
-        public List<Reserva> listaReservas()
+        public ReservaService(IReservaService reservaService)
         {
-            
-            List<Reserva> reservaList = new List<Reserva>();
-            return reservaList;
+            _reservaService = reservaService;
         }
 
-        public void ComprarPassagens( Rota rota, Trecho trecho )
+        public Reserva CriarReserva(int PassageiroID, Viagem viagem, Lugar lugar)
         {
+            return _reservaService.CriarReserva(PassageiroID, viagem, lugar);   
+        }
 
+        public List<Onibus> listadeOnibusDiaRota(Rota rota, DateTime diaorigem)
+        {
+            return _reservaService.listadeOnibusDiaRota(rota, diaorigem);   
+        }
+
+        public List<Viagem> listaReservasDia(DateTime diaorigem)
+        {
+            return _reservaService.listaReservasDia(diaorigem);
+        }
+
+        public List<Lugar> VerificarListaLugaresDisponiveis(Onibus onibus, Trecho atual)
+        {
+            return _reservaService.VerificarListaLugaresDisponiveis(onibus, atual);
+        }
+
+        public bool VerificarLugaresDisponiveis(Onibus onibus, int nassento, Trecho atual)
+        {
+            return _reservaService.VerificarLugaresDisponiveis(onibus, nassento, atual);
+        }
+
+        public bool VerificarPassageiroOnibus(int PassageiroID, Onibus onibus)
+        {
+            return _reservaService.VerificarPassageiroOnibus(PassageiroID, onibus);
+        }
+
+        public int VerQuantidadeLugar(Onibus onibus)
+        {
+            return _reservaService.VerQuantidadeLugar(onibus);
         }
     }
 }

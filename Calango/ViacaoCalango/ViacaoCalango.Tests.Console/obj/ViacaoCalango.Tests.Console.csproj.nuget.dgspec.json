@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj": {}
+    "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj": {}
   },
   "projects": {
-    "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj": {
+    "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj",
+        "projectUniqueName": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj",
         "projectName": "ViacaoCalango.Application",
-        "projectPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj",
+        "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj",
         "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-        "outputPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\obj\\",
+        "outputPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj": {
-                "projectPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj"
+              "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj": {
+                "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj"
               }
             }
           }
@@ -72,14 +72,82 @@
         }
       }
     },
-    "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj": {
+    "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj",
+        "projectUniqueName": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj",
         "projectName": "ViacaoCalango.Domain",
-        "projectPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj",
+        "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj",
         "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-        "outputPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\obj\\",
+        "outputPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\zsant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Infra.Data\\ViacaoCalango.Infra.Data.csproj": {
+                "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Infra.Data\\ViacaoCalango.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Infra.Data\\ViacaoCalango.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Infra.Data\\ViacaoCalango.Infra.Data.csproj",
+        "projectName": "ViacaoCalango.Infra.Data",
+        "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Infra.Data\\ViacaoCalango.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
+        "outputPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -136,14 +204,14 @@
         }
       }
     },
-    "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj": {
+    "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj",
+        "projectUniqueName": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj",
         "projectName": "ViacaoCalango.Tests.Console",
-        "projectPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj",
+        "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\ViacaoCalango.Tests.Console.csproj",
         "packagesPath": "C:\\Users\\zsant\\.nuget\\packages\\",
-        "outputPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\obj\\",
+        "outputPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Tests.Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -164,11 +232,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj": {
-                "projectPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj"
+              "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj": {
+                "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Application\\ViacaoCalango.Application.csproj"
               },
-              "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj": {
-                "projectPath": "D:\\vstudio_projects\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj"
+              "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj": {
+                "projectPath": "D:\\vstudio\\Calango\\ViacaoCalango\\ViacaoCalango.Domain\\ViacaoCalango.Domain.csproj"
               }
             }
           }

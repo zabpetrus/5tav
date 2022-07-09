@@ -36,19 +36,7 @@ namespace ViacaoCalango
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ViacaoCalango", Version = "v1" });
-            });
-
-            if(_mapper == null)
-            {
-                var mappingConfig = new MapperConfiguration(cfg => {
-                    cfg.AddProfile(new SourceMappingProfile());
-                });
-
-                IMapper mapper = mappingConfig.CreateMapper();
-                services.AddSingleton(mapper);
-            }
-
-           
+            }); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

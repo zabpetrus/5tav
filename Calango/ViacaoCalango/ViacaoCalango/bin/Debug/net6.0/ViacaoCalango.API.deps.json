@@ -96,10 +96,19 @@
       },
       "ViacaoCalango.Domain/1.0.0": {
         "dependencies": {
-          "AutoMapper": "11.0.1"
+          "AutoMapper": "11.0.1",
+          "ViacaoCalango.Infra.Data": "1.0.0"
         },
         "runtime": {
           "ViacaoCalango.Domain.dll": {}
+        }
+      },
+      "ViacaoCalango.Infra.Data/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "11.0.1"
+        },
+        "runtime": {
+          "ViacaoCalango.Infra.Data.dll": {}
         }
       }
     }
@@ -177,6 +186,11 @@
       "sha512": ""
     },
     "ViacaoCalango.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ViacaoCalango.Infra.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
