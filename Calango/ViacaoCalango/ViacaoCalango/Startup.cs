@@ -12,6 +12,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ViacaoCalango.Application.AppService;
+using ViacaoCalango.Application.Interfaces;
 using ViacaoCalango.Application.ViewModels;
 using ViacaoCalango.CrossCutting;
 using ViacaoCalango.Domain.Entities;
@@ -36,7 +38,8 @@ namespace ViacaoCalango
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ViacaoCalango", Version = "v1" });
-            }); 
+            });
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
